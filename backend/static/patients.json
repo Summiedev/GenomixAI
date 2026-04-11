@@ -1,0 +1,6815 @@
+[
+  {
+    "id": "1",
+    "name": "David Kim",
+    "age": 40,
+    "sex": "F",
+    "mrn": "MRN-216117",
+    "lastVisit": "2025-08-04",
+    "status": "Active",
+    "conditions": [
+      "CKD",
+      "Heart Failure",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m00",
+        "name": "Ticagrelor",
+        "dose": "92mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-01-14",
+        "status": "Active"
+      },
+      {
+        "id": "m01",
+        "name": "Aspirin",
+        "dose": "59mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-02-10",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.17",
+        "unit": "U/L",
+        "date": "2026-07-05",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "date": "2024-11-06",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "3.84",
+        "unit": "%",
+        "date": "2025-04-05",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "2",
+    "name": "David Kim",
+    "age": 82,
+    "sex": "F",
+    "mrn": "MRN-656264",
+    "lastVisit": "2026-06-21",
+    "status": "Active",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m10",
+        "name": "Warfarin",
+        "dose": "23mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-08-05",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m11",
+        "name": "Ticagrelor",
+        "dose": "63mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-05-07",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m12",
+        "name": "Atorvastatin",
+        "dose": "11mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2025-05-10",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "3.2",
+        "unit": "mL/min",
+        "date": "2025-02-17",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "2.67",
+        "unit": "mL/min",
+        "date": "2024-08-09",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "4.47",
+        "unit": "U/L",
+        "date": "2025-04-26",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.87",
+        "unit": "mg/dL",
+        "date": "2026-11-02",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "7.82",
+        "unit": "%",
+        "date": "2024-12-11",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "3",
+    "name": "Emily Clark",
+    "age": 29,
+    "sex": "M",
+    "mrn": "MRN-282720",
+    "lastVisit": "2025-04-13",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m20",
+        "name": "Clopidogrel",
+        "dose": "65mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2022-03-15",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "1.63",
+        "unit": "mg/dL",
+        "date": "2026-05-04",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "2.89",
+        "unit": "mg/dL",
+        "date": "2025-10-06",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "3.16",
+        "unit": "",
+        "date": "2024-10-04",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "3.74",
+        "unit": "",
+        "date": "2024-05-12",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.33",
+        "unit": "mg/dL",
+        "date": "2024-01-24",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*1/*1",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "4",
+    "name": "Aisha Patel",
+    "age": 65,
+    "sex": "F",
+    "mrn": "MRN-996387",
+    "lastVisit": "2025-03-19",
+    "status": "Inactive",
+    "conditions": [
+      "COPD",
+      "Asthma",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m30",
+        "name": "Prasugrel",
+        "dose": "73mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2019-10-14",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "6.92",
+        "unit": "",
+        "date": "2024-06-10",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "5.98",
+        "unit": "U/L",
+        "date": "2025-12-04",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "5",
+    "name": "Linda Brown",
+    "age": 43,
+    "sex": "M",
+    "mrn": "MRN-828048",
+    "lastVisit": "2025-05-12",
+    "status": "Inactive",
+    "conditions": [
+      "Myocardial Infarction",
+      "Stroke",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m40",
+        "name": "Metformin",
+        "dose": "78mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2016-07-03",
+        "status": "Active"
+      },
+      {
+        "id": "m41",
+        "name": "Atorvastatin",
+        "dose": "39mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2021-05-08",
+        "status": "Active"
+      },
+      {
+        "id": "m42",
+        "name": "Prasugrel",
+        "dose": "77mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-03-26",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "3.6",
+        "unit": "%",
+        "date": "2026-12-17",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "2.75",
+        "unit": "mg/dL",
+        "date": "2026-10-12",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "2.7",
+        "unit": "U/L",
+        "date": "2025-10-27",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "4.03",
+        "unit": "mg/dL",
+        "date": "2026-07-16",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "6",
+    "name": "Emily Clark",
+    "age": 76,
+    "sex": "F",
+    "mrn": "MRN-774804",
+    "lastVisit": "2026-09-02",
+    "status": "Inactive",
+    "conditions": [
+      "Hyperlipidemia",
+      "Stroke",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m50",
+        "name": "Atorvastatin",
+        "dose": "86mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-04-12",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "3.18",
+        "unit": "mg/dL",
+        "date": "2025-01-12",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "1.64",
+        "unit": "%",
+        "date": "2024-12-28",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "2.54",
+        "unit": "U/L",
+        "date": "2025-11-11",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.62",
+        "unit": "U/L",
+        "date": "2026-05-26",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "7",
+    "name": "Emily Clark",
+    "age": 89,
+    "sex": "F",
+    "mrn": "MRN-866195",
+    "lastVisit": "2025-04-14",
+    "status": "Active",
+    "conditions": [
+      "Heart Failure",
+      "Stroke",
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m60",
+        "name": "Ticagrelor",
+        "dose": "86mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-03-06",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m61",
+        "name": "Warfarin",
+        "dose": "41mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2025-07-07",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "1.24",
+        "unit": "%",
+        "date": "2024-11-01",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "5.13",
+        "unit": "",
+        "date": "2026-09-15",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "1.43",
+        "unit": "",
+        "date": "2025-10-15",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "8",
+    "name": "Linda Brown",
+    "age": 30,
+    "sex": "F",
+    "mrn": "MRN-806447",
+    "lastVisit": "2026-09-15",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m70",
+        "name": "Warfarin",
+        "dose": "28mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2024-08-01",
+        "status": "Active"
+      },
+      {
+        "id": "m71",
+        "name": "Prasugrel",
+        "dose": "94mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-07-27",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "0.85",
+        "unit": "mL/min",
+        "date": "2026-03-06",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "2.09",
+        "unit": "mL/min",
+        "date": "2026-06-12",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "9",
+    "name": "Maria Lopez",
+    "age": 47,
+    "sex": "F",
+    "mrn": "MRN-220814",
+    "lastVisit": "2025-07-14",
+    "status": "Inactive",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m80",
+        "name": "Metformin",
+        "dose": "95mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-04-12",
+        "status": "Active"
+      },
+      {
+        "id": "m81",
+        "name": "Ticagrelor",
+        "dose": "57mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-11-21",
+        "status": "Active"
+      },
+      {
+        "id": "m82",
+        "name": "Aspirin",
+        "dose": "59mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-09-07",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "7.08",
+        "unit": "U/L",
+        "date": "2024-12-28",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "2.52",
+        "unit": "mg/dL",
+        "date": "2024-06-05",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.1",
+        "unit": "U/L",
+        "date": "2026-01-04",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "5.09",
+        "unit": "U/L",
+        "date": "2024-08-02",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.74",
+        "unit": "mL/min",
+        "date": "2024-05-11",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "10",
+    "name": "Emily Clark",
+    "age": 89,
+    "sex": "M",
+    "mrn": "MRN-479486",
+    "lastVisit": "2026-12-11",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m90",
+        "name": "Warfarin",
+        "dose": "77mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-04-06",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m91",
+        "name": "Atorvastatin",
+        "dose": "11mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2019-04-05",
+        "status": "Active"
+      },
+      {
+        "id": "m92",
+        "name": "Ticagrelor",
+        "dose": "71mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2019-03-06",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "2.45",
+        "unit": "mL/min",
+        "date": "2026-08-17",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "5.01",
+        "unit": "mg/dL",
+        "date": "2024-01-28",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.46",
+        "unit": "%",
+        "date": "2024-05-20",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "4.2",
+        "unit": "mg/dL",
+        "date": "2024-02-16",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "11",
+    "name": "Sarah Jenkins",
+    "age": 72,
+    "sex": "M",
+    "mrn": "MRN-306603",
+    "lastVisit": "2025-02-24",
+    "status": "Active",
+    "conditions": [
+      "COPD",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "id": "m100",
+        "name": "Clopidogrel",
+        "dose": "33mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-07-25",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m101",
+        "name": "Clopidogrel",
+        "dose": "24mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-02-20",
+        "status": "Active"
+      },
+      {
+        "id": "m102",
+        "name": "Prasugrel",
+        "dose": "29mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-05-11",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "3.05",
+        "unit": "%",
+        "date": "2025-03-09",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.54",
+        "unit": "mg/dL",
+        "date": "2026-09-12",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.74",
+        "unit": "mg/dL",
+        "date": "2024-12-23",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "12",
+    "name": "Linda Brown",
+    "age": 74,
+    "sex": "M",
+    "mrn": "MRN-471321",
+    "lastVisit": "2025-11-25",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m110",
+        "name": "Metformin",
+        "dose": "27mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-12-11",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.21",
+        "unit": "mg/dL",
+        "date": "2025-08-26",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "1.19",
+        "unit": "mg/dL",
+        "date": "2025-11-08",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "13",
+    "name": "David Kim",
+    "age": 80,
+    "sex": "M",
+    "mrn": "MRN-484528",
+    "lastVisit": "2026-11-20",
+    "status": "Inactive",
+    "conditions": [
+      "Stroke",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m120",
+        "name": "Ticagrelor",
+        "dose": "77mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-10-07",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m121",
+        "name": "Clopidogrel",
+        "dose": "59mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2020-08-02",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "2.94",
+        "unit": "mL/min",
+        "date": "2024-12-09",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "7.95",
+        "unit": "",
+        "date": "2025-04-10",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "1.68",
+        "unit": "mL/min",
+        "date": "2025-03-20",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "3.48",
+        "unit": "",
+        "date": "2025-02-02",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.21",
+        "unit": "U/L",
+        "date": "2026-02-09",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "14",
+    "name": "Emily Clark",
+    "age": 66,
+    "sex": "M",
+    "mrn": "MRN-265825",
+    "lastVisit": "2026-11-22",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "Type 2 Diabetes",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m130",
+        "name": "Ticagrelor",
+        "dose": "69mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-06-24",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m131",
+        "name": "Clopidogrel",
+        "dose": "54mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2017-04-13",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m132",
+        "name": "Clopidogrel",
+        "dose": "75mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2024-11-17",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "1.46",
+        "unit": "%",
+        "date": "2024-03-07",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.4",
+        "unit": "",
+        "date": "2024-01-12",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "6.72",
+        "unit": "mL/min",
+        "date": "2025-08-02",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "1.69",
+        "unit": "%",
+        "date": "2025-05-08",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "15",
+    "name": "Linda Brown",
+    "age": 77,
+    "sex": "F",
+    "mrn": "MRN-648611",
+    "lastVisit": "2025-08-27",
+    "status": "Active",
+    "conditions": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m140",
+        "name": "Aspirin",
+        "dose": "73mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2017-07-10",
+        "status": "Active"
+      },
+      {
+        "id": "m141",
+        "name": "Warfarin",
+        "dose": "22mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2022-12-02",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m142",
+        "name": "Atorvastatin",
+        "dose": "92mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-06-22",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "4.46",
+        "unit": "mL/min",
+        "date": "2025-03-14",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "5.0",
+        "unit": "U/L",
+        "date": "2025-11-28",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "5.5",
+        "unit": "mL/min",
+        "date": "2025-06-02",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "16",
+    "name": "Sarah Jenkins",
+    "age": 35,
+    "sex": "M",
+    "mrn": "MRN-547345",
+    "lastVisit": "2025-05-05",
+    "status": "Inactive",
+    "conditions": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m150",
+        "name": "Clopidogrel",
+        "dose": "39mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-05-23",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m151",
+        "name": "Warfarin",
+        "dose": "24mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-01-16",
+        "status": "Active"
+      },
+      {
+        "id": "m152",
+        "name": "Prasugrel",
+        "dose": "57mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-09-13",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "7.89",
+        "unit": "mg/dL",
+        "date": "2024-03-18",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "3.24",
+        "unit": "mL/min",
+        "date": "2024-01-21",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.32",
+        "unit": "",
+        "date": "2026-02-15",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "17",
+    "name": "Linda Brown",
+    "age": 69,
+    "sex": "F",
+    "mrn": "MRN-866178",
+    "lastVisit": "2025-09-14",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m160",
+        "name": "Atorvastatin",
+        "dose": "99mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-11-04",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m161",
+        "name": "Metformin",
+        "dose": "26mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-07-15",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m162",
+        "name": "Warfarin",
+        "dose": "45mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-12-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "6.53",
+        "unit": "%",
+        "date": "2025-03-20",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "4.28",
+        "unit": "%",
+        "date": "2024-06-17",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "4.5",
+        "unit": "mg/dL",
+        "date": "2024-08-19",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.13",
+        "unit": "",
+        "date": "2025-03-28",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "7.38",
+        "unit": "U/L",
+        "date": "2025-12-14",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "18",
+    "name": "Maria Lopez",
+    "age": 22,
+    "sex": "F",
+    "mrn": "MRN-443796",
+    "lastVisit": "2026-09-27",
+    "status": "Inactive",
+    "conditions": [
+      "Hypertension",
+      "Hypertension",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "id": "m170",
+        "name": "Prasugrel",
+        "dose": "90mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-09-10",
+        "status": "Active"
+      },
+      {
+        "id": "m171",
+        "name": "Aspirin",
+        "dose": "61mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2022-02-12",
+        "status": "Active"
+      },
+      {
+        "id": "m172",
+        "name": "Aspirin",
+        "dose": "70mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-01-21",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.49",
+        "unit": "U/L",
+        "date": "2024-07-16",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "3.55",
+        "unit": "mg/dL",
+        "date": "2024-07-12",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.95",
+        "unit": "U/L",
+        "date": "2025-07-06",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "19",
+    "name": "Aisha Patel",
+    "age": 29,
+    "sex": "M",
+    "mrn": "MRN-883815",
+    "lastVisit": "2026-08-20",
+    "status": "Active",
+    "conditions": [
+      "CKD",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m180",
+        "name": "Metformin",
+        "dose": "53mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-08-07",
+        "status": "Active"
+      },
+      {
+        "id": "m181",
+        "name": "Atorvastatin",
+        "dose": "68mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2022-03-19",
+        "status": "Active"
+      },
+      {
+        "id": "m182",
+        "name": "Ticagrelor",
+        "dose": "23mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-03-08",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "1.38",
+        "unit": "mL/min",
+        "date": "2026-04-27",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.59",
+        "unit": "U/L",
+        "date": "2026-03-01",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.7",
+        "unit": "",
+        "date": "2025-05-09",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.17",
+        "unit": "U/L",
+        "date": "2025-12-12",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "20",
+    "name": "Maria Lopez",
+    "age": 34,
+    "sex": "M",
+    "mrn": "MRN-855163",
+    "lastVisit": "2025-05-16",
+    "status": "Inactive",
+    "conditions": [
+      "Hyperlipidemia",
+      "CKD",
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m190",
+        "name": "Warfarin",
+        "dose": "54mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-05-03",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "3.05",
+        "unit": "U/L",
+        "date": "2026-02-26",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "3.62",
+        "unit": "",
+        "date": "2025-12-22",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "21",
+    "name": "Robert Chen",
+    "age": 65,
+    "sex": "M",
+    "mrn": "MRN-688038",
+    "lastVisit": "2026-02-24",
+    "status": "Inactive",
+    "conditions": [
+      "Hypertension",
+      "CKD",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m200",
+        "name": "Metformin",
+        "dose": "60mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-08-26",
+        "status": "Active"
+      },
+      {
+        "id": "m201",
+        "name": "Ticagrelor",
+        "dose": "63mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2024-04-26",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "2.09",
+        "unit": "U/L",
+        "date": "2024-04-21",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.51",
+        "unit": "mL/min",
+        "date": "2025-04-20",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "7.63",
+        "unit": "mL/min",
+        "date": "2026-08-04",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "4.62",
+        "unit": "mg/dL",
+        "date": "2025-04-28",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "22",
+    "name": "David Kim",
+    "age": 88,
+    "sex": "F",
+    "mrn": "MRN-471917",
+    "lastVisit": "2026-11-28",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "Myocardial Infarction",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m210",
+        "name": "Prasugrel",
+        "dose": "80mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2020-04-20",
+        "status": "Active"
+      },
+      {
+        "id": "m211",
+        "name": "Clopidogrel",
+        "dose": "15mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-03-12",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m212",
+        "name": "Atorvastatin",
+        "dose": "15mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-08-16",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "5.39",
+        "unit": "U/L",
+        "date": "2026-11-04",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "4.02",
+        "unit": "",
+        "date": "2025-06-19",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "4.46",
+        "unit": "U/L",
+        "date": "2024-06-23",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "23",
+    "name": "Mohammed Ali",
+    "age": 58,
+    "sex": "F",
+    "mrn": "MRN-461347",
+    "lastVisit": "2026-06-10",
+    "status": "Inactive",
+    "conditions": [
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m220",
+        "name": "Ticagrelor",
+        "dose": "89mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-01-11",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "5.62",
+        "unit": "mg/dL",
+        "date": "2025-11-12",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "0.82",
+        "unit": "U/L",
+        "date": "2024-10-17",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "7.59",
+        "unit": "U/L",
+        "date": "2024-09-04",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.83",
+        "unit": "mg/dL",
+        "date": "2025-04-24",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "24",
+    "name": "John Lee",
+    "age": 60,
+    "sex": "F",
+    "mrn": "MRN-481125",
+    "lastVisit": "2025-08-16",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "CKD",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m230",
+        "name": "Prasugrel",
+        "dose": "26mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-03-13",
+        "status": "Active"
+      },
+      {
+        "id": "m231",
+        "name": "Aspirin",
+        "dose": "87mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2018-03-28",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.31",
+        "unit": "%",
+        "date": "2025-06-21",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "3.78",
+        "unit": "",
+        "date": "2024-11-04",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.12",
+        "unit": "mL/min",
+        "date": "2024-01-02",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "6.68",
+        "unit": "%",
+        "date": "2025-11-12",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "25",
+    "name": "Mohammed Ali",
+    "age": 77,
+    "sex": "F",
+    "mrn": "MRN-191594",
+    "lastVisit": "2025-05-14",
+    "status": "Inactive",
+    "conditions": [
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "id": "m240",
+        "name": "Clopidogrel",
+        "dose": "93mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-06-11",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m241",
+        "name": "Aspirin",
+        "dose": "97mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-08-15",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.18",
+        "unit": "mL/min",
+        "date": "2025-09-12",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.48",
+        "unit": "mg/dL",
+        "date": "2026-06-05",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "26",
+    "name": "Linda Brown",
+    "age": 51,
+    "sex": "F",
+    "mrn": "MRN-644923",
+    "lastVisit": "2026-08-21",
+    "status": "Active",
+    "conditions": [
+      "CKD",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m250",
+        "name": "Ticagrelor",
+        "dose": "73mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2025-03-17",
+        "status": "Active"
+      },
+      {
+        "id": "m251",
+        "name": "Aspirin",
+        "dose": "43mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-09-14",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m252",
+        "name": "Ticagrelor",
+        "dose": "30mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-03-01",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "7.01",
+        "unit": "mg/dL",
+        "date": "2024-04-12",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.38",
+        "unit": "",
+        "date": "2024-11-18",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.97",
+        "unit": "",
+        "date": "2025-04-18",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "4.48",
+        "unit": "mL/min",
+        "date": "2024-02-05",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "5.39",
+        "unit": "%",
+        "date": "2026-11-15",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "27",
+    "name": "Sarah Jenkins",
+    "age": 25,
+    "sex": "F",
+    "mrn": "MRN-467740",
+    "lastVisit": "2025-06-10",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m260",
+        "name": "Prasugrel",
+        "dose": "29mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-04-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "4.28",
+        "unit": "mL/min",
+        "date": "2026-01-12",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "7.48",
+        "unit": "U/L",
+        "date": "2026-07-13",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "7.58",
+        "unit": "mL/min",
+        "date": "2026-12-22",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "28",
+    "name": "Robert Chen",
+    "age": 70,
+    "sex": "F",
+    "mrn": "MRN-137612",
+    "lastVisit": "2026-12-07",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia",
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m270",
+        "name": "Ticagrelor",
+        "dose": "74mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-02-18",
+        "status": "Active"
+      },
+      {
+        "id": "m271",
+        "name": "Ticagrelor",
+        "dose": "67mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-05-28",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m272",
+        "name": "Clopidogrel",
+        "dose": "73mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-01-21",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "6.05",
+        "unit": "%",
+        "date": "2024-01-07",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "1.83",
+        "unit": "",
+        "date": "2024-02-11",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "6.54",
+        "unit": "mg/dL",
+        "date": "2025-12-05",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "29",
+    "name": "James Smith",
+    "age": 29,
+    "sex": "M",
+    "mrn": "MRN-348119",
+    "lastVisit": "2025-02-24",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m280",
+        "name": "Prasugrel",
+        "dose": "45mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-09-19",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m281",
+        "name": "Prasugrel",
+        "dose": "70mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-05-19",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "3.81",
+        "unit": "",
+        "date": "2024-04-13",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "3.73",
+        "unit": "",
+        "date": "2026-06-14",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "7.01",
+        "unit": "",
+        "date": "2026-09-18",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "30",
+    "name": "Emily Clark",
+    "age": 48,
+    "sex": "F",
+    "mrn": "MRN-705056",
+    "lastVisit": "2025-11-03",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m290",
+        "name": "Warfarin",
+        "dose": "90mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2019-02-26",
+        "status": "Active"
+      },
+      {
+        "id": "m291",
+        "name": "Metformin",
+        "dose": "80mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2021-01-11",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "2.06",
+        "unit": "mg/dL",
+        "date": "2025-12-26",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "7.07",
+        "unit": "",
+        "date": "2026-03-01",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "3.67",
+        "unit": "%",
+        "date": "2026-09-09",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.02",
+        "unit": "",
+        "date": "2025-10-11",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "31",
+    "name": "Maria Lopez",
+    "age": 65,
+    "sex": "F",
+    "mrn": "MRN-540131",
+    "lastVisit": "2026-03-26",
+    "status": "Inactive",
+    "conditions": [
+      "CKD",
+      "Myocardial Infarction",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m300",
+        "name": "Prasugrel",
+        "dose": "88mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2019-03-07",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "7.27",
+        "unit": "U/L",
+        "date": "2024-07-19",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "7.27",
+        "unit": "%",
+        "date": "2026-07-16",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "3.41",
+        "unit": "",
+        "date": "2025-07-25",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "32",
+    "name": "Mohammed Ali",
+    "age": 79,
+    "sex": "M",
+    "mrn": "MRN-282565",
+    "lastVisit": "2026-11-15",
+    "status": "Active",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m310",
+        "name": "Atorvastatin",
+        "dose": "92mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2017-08-22",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "4.45",
+        "unit": "",
+        "date": "2025-06-11",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "7.62",
+        "unit": "",
+        "date": "2026-06-20",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.54",
+        "unit": "mg/dL",
+        "date": "2025-12-05",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "33",
+    "name": "James Smith",
+    "age": 49,
+    "sex": "M",
+    "mrn": "MRN-941305",
+    "lastVisit": "2026-05-26",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m320",
+        "name": "Ticagrelor",
+        "dose": "38mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2020-06-13",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "3.32",
+        "unit": "mg/dL",
+        "date": "2026-05-05",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.58",
+        "unit": "mg/dL",
+        "date": "2024-07-11",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "34",
+    "name": "James Smith",
+    "age": 81,
+    "sex": "M",
+    "mrn": "MRN-120293",
+    "lastVisit": "2026-01-08",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m330",
+        "name": "Metformin",
+        "dose": "35mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-07-28",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m331",
+        "name": "Clopidogrel",
+        "dose": "51mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2024-08-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.76",
+        "unit": "%",
+        "date": "2024-12-09",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.91",
+        "unit": "",
+        "date": "2024-07-14",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "2.28",
+        "unit": "mL/min",
+        "date": "2025-05-17",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "35",
+    "name": "John Lee",
+    "age": 72,
+    "sex": "M",
+    "mrn": "MRN-797558",
+    "lastVisit": "2026-09-20",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m340",
+        "name": "Clopidogrel",
+        "dose": "93mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2019-10-14",
+        "status": "Active"
+      },
+      {
+        "id": "m341",
+        "name": "Warfarin",
+        "dose": "85mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-01-18",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "1.52",
+        "unit": "%",
+        "date": "2025-01-27",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "2.63",
+        "unit": "mL/min",
+        "date": "2024-05-14",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "6.44",
+        "unit": "mg/dL",
+        "date": "2025-03-09",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.23",
+        "unit": "mL/min",
+        "date": "2026-07-15",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "36",
+    "name": "David Kim",
+    "age": 18,
+    "sex": "M",
+    "mrn": "MRN-643305",
+    "lastVisit": "2026-01-11",
+    "status": "Inactive",
+    "conditions": [
+      "CKD",
+      "Hypertension",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m350",
+        "name": "Atorvastatin",
+        "dose": "87mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-03-19",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "4.46",
+        "unit": "%",
+        "date": "2024-06-23",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.38",
+        "unit": "mg/dL",
+        "date": "2024-10-14",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*1/*1",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "37",
+    "name": "James Smith",
+    "age": 20,
+    "sex": "F",
+    "mrn": "MRN-725870",
+    "lastVisit": "2025-07-08",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma",
+      "Type 2 Diabetes",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m360",
+        "name": "Metformin",
+        "dose": "76mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-01-20",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.21",
+        "unit": "mg/dL",
+        "date": "2024-06-27",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "7.71",
+        "unit": "",
+        "date": "2026-03-12",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "7.48",
+        "unit": "U/L",
+        "date": "2024-12-03",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.72",
+        "unit": "",
+        "date": "2025-08-15",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "38",
+    "name": "Sarah Jenkins",
+    "age": 69,
+    "sex": "F",
+    "mrn": "MRN-363175",
+    "lastVisit": "2026-02-14",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "COPD",
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m370",
+        "name": "Metformin",
+        "dose": "64mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2018-06-20",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m371",
+        "name": "Aspirin",
+        "dose": "46mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-07-03",
+        "status": "Active"
+      },
+      {
+        "id": "m372",
+        "name": "Ticagrelor",
+        "dose": "53mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-03-04",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "7.42",
+        "unit": "mg/dL",
+        "date": "2026-10-11",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.14",
+        "unit": "U/L",
+        "date": "2024-04-05",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "5.48",
+        "unit": "U/L",
+        "date": "2026-12-08",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "7.98",
+        "unit": "",
+        "date": "2024-09-21",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "3.65",
+        "unit": "U/L",
+        "date": "2024-12-03",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*2/*2",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "39",
+    "name": "James Smith",
+    "age": 88,
+    "sex": "M",
+    "mrn": "MRN-963775",
+    "lastVisit": "2026-03-28",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m380",
+        "name": "Aspirin",
+        "dose": "29mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-09-28",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m381",
+        "name": "Warfarin",
+        "dose": "38mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2017-05-14",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "7.98",
+        "unit": "%",
+        "date": "2026-07-21",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "6.27",
+        "unit": "",
+        "date": "2024-06-26",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "6.3",
+        "unit": "",
+        "date": "2026-12-01",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "40",
+    "name": "Emily Clark",
+    "age": 35,
+    "sex": "M",
+    "mrn": "MRN-219687",
+    "lastVisit": "2025-01-11",
+    "status": "Active",
+    "conditions": [
+      "Stroke",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m390",
+        "name": "Prasugrel",
+        "dose": "89mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2020-02-06",
+        "status": "Active"
+      },
+      {
+        "id": "m391",
+        "name": "Prasugrel",
+        "dose": "66mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-09-24",
+        "status": "Active"
+      },
+      {
+        "id": "m392",
+        "name": "Ticagrelor",
+        "dose": "81mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-08-20",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "3.87",
+        "unit": "U/L",
+        "date": "2024-06-06",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "1.88",
+        "unit": "mL/min",
+        "date": "2026-11-17",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.29",
+        "unit": "U/L",
+        "date": "2025-01-11",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "7.09",
+        "unit": "mg/dL",
+        "date": "2025-03-07",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "41",
+    "name": "Linda Brown",
+    "age": 85,
+    "sex": "M",
+    "mrn": "MRN-373977",
+    "lastVisit": "2026-05-27",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m400",
+        "name": "Ticagrelor",
+        "dose": "48mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2018-01-23",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "4.4",
+        "unit": "%",
+        "date": "2024-03-05",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "3.13",
+        "unit": "mg/dL",
+        "date": "2025-01-23",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.7",
+        "unit": "mL/min",
+        "date": "2026-04-20",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "3.95",
+        "unit": "%",
+        "date": "2024-11-22",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "1.58",
+        "unit": "mL/min",
+        "date": "2024-05-28",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*2/*2",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "42",
+    "name": "Emily Clark",
+    "age": 27,
+    "sex": "F",
+    "mrn": "MRN-439096",
+    "lastVisit": "2025-12-17",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m410",
+        "name": "Warfarin",
+        "dose": "57mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-06-01",
+        "status": "Active"
+      },
+      {
+        "id": "m411",
+        "name": "Metformin",
+        "dose": "48mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-09-12",
+        "status": "Active"
+      },
+      {
+        "id": "m412",
+        "name": "Ticagrelor",
+        "dose": "25mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-01-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "3.7",
+        "unit": "U/L",
+        "date": "2025-11-17",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.16",
+        "unit": "%",
+        "date": "2024-08-19",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "43",
+    "name": "David Kim",
+    "age": 48,
+    "sex": "F",
+    "mrn": "MRN-376309",
+    "lastVisit": "2025-01-26",
+    "status": "Inactive",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m420",
+        "name": "Atorvastatin",
+        "dose": "57mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2018-07-10",
+        "status": "Active"
+      },
+      {
+        "id": "m421",
+        "name": "Aspirin",
+        "dose": "47mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2021-08-18",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.34",
+        "unit": "mg/dL",
+        "date": "2024-12-15",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.74",
+        "unit": "%",
+        "date": "2025-01-17",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "5.56",
+        "unit": "mg/dL",
+        "date": "2024-03-04",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "44",
+    "name": "Maria Lopez",
+    "age": 68,
+    "sex": "M",
+    "mrn": "MRN-837053",
+    "lastVisit": "2026-06-09",
+    "status": "Inactive",
+    "conditions": [
+      "CKD",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m430",
+        "name": "Clopidogrel",
+        "dose": "45mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-09-10",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m431",
+        "name": "Metformin",
+        "dose": "15mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-11-03",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "4.12",
+        "unit": "U/L",
+        "date": "2024-04-28",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.14",
+        "unit": "mg/dL",
+        "date": "2026-02-12",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "6.54",
+        "unit": "mL/min",
+        "date": "2024-02-08",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "45",
+    "name": "John Lee",
+    "age": 20,
+    "sex": "F",
+    "mrn": "MRN-435756",
+    "lastVisit": "2026-12-08",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m440",
+        "name": "Ticagrelor",
+        "dose": "66mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2017-07-01",
+        "status": "Active"
+      },
+      {
+        "id": "m441",
+        "name": "Metformin",
+        "dose": "30mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-09-06",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "5.6",
+        "unit": "",
+        "date": "2024-11-02",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "1.56",
+        "unit": "mg/dL",
+        "date": "2024-07-08",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.04",
+        "unit": "mg/dL",
+        "date": "2026-01-17",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "46",
+    "name": "Linda Brown",
+    "age": 75,
+    "sex": "M",
+    "mrn": "MRN-364248",
+    "lastVisit": "2026-11-21",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m450",
+        "name": "Clopidogrel",
+        "dose": "79mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-05-07",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "4.53",
+        "unit": "%",
+        "date": "2024-11-24",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "4.94",
+        "unit": "%",
+        "date": "2025-01-13",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "4.58",
+        "unit": "",
+        "date": "2024-05-18",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.97",
+        "unit": "",
+        "date": "2025-01-16",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.35",
+        "unit": "mL/min",
+        "date": "2024-11-13",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "47",
+    "name": "Linda Brown",
+    "age": 45,
+    "sex": "M",
+    "mrn": "MRN-715235",
+    "lastVisit": "2025-03-20",
+    "status": "Inactive",
+    "conditions": [
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m460",
+        "name": "Clopidogrel",
+        "dose": "49mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2021-09-25",
+        "status": "Active"
+      },
+      {
+        "id": "m461",
+        "name": "Metformin",
+        "dose": "67mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2018-02-07",
+        "status": "Active"
+      },
+      {
+        "id": "m462",
+        "name": "Clopidogrel",
+        "dose": "73mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-10-04",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "0.84",
+        "unit": "%",
+        "date": "2024-10-16",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.03",
+        "unit": "mg/dL",
+        "date": "2026-05-21",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "5.38",
+        "unit": "%",
+        "date": "2025-09-17",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.34",
+        "unit": "%",
+        "date": "2026-06-25",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.47",
+        "unit": "mg/dL",
+        "date": "2025-11-08",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "48",
+    "name": "Robert Chen",
+    "age": 71,
+    "sex": "F",
+    "mrn": "MRN-880158",
+    "lastVisit": "2025-03-09",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "Asthma",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m470",
+        "name": "Warfarin",
+        "dose": "76mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-11-16",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m471",
+        "name": "Aspirin",
+        "dose": "43mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-08-23",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "2.75",
+        "unit": "",
+        "date": "2024-01-16",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "3.18",
+        "unit": "",
+        "date": "2026-07-01",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "49",
+    "name": "David Kim",
+    "age": 19,
+    "sex": "M",
+    "mrn": "MRN-688700",
+    "lastVisit": "2026-07-26",
+    "status": "Inactive",
+    "conditions": [
+      "Stroke",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m480",
+        "name": "Metformin",
+        "dose": "83mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-03-24",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m481",
+        "name": "Aspirin",
+        "dose": "19mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2017-10-11",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "4.87",
+        "unit": "U/L",
+        "date": "2024-03-11",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "1.48",
+        "unit": "U/L",
+        "date": "2025-11-17",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.69",
+        "unit": "mL/min",
+        "date": "2026-03-28",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "50",
+    "name": "James Smith",
+    "age": 44,
+    "sex": "M",
+    "mrn": "MRN-826601",
+    "lastVisit": "2025-10-27",
+    "status": "Inactive",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Heart Failure",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m490",
+        "name": "Prasugrel",
+        "dose": "52mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-01-23",
+        "status": "Active"
+      },
+      {
+        "id": "m491",
+        "name": "Aspirin",
+        "dose": "69mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-07-24",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "1.48",
+        "unit": "",
+        "date": "2024-06-04",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "7.19",
+        "unit": "mL/min",
+        "date": "2026-05-04",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "51",
+    "name": "Mohammed Ali",
+    "age": 38,
+    "sex": "M",
+    "mrn": "MRN-702159",
+    "lastVisit": "2025-02-28",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "Myocardial Infarction",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m500",
+        "name": "Aspirin",
+        "dose": "49mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-02-19",
+        "status": "Active"
+      },
+      {
+        "id": "m501",
+        "name": "Atorvastatin",
+        "dose": "98mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-11-08",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "5.18",
+        "unit": "",
+        "date": "2025-05-20",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.69",
+        "unit": "mg/dL",
+        "date": "2025-05-23",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "7.95",
+        "unit": "%",
+        "date": "2026-05-25",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "52",
+    "name": "John Lee",
+    "age": 64,
+    "sex": "F",
+    "mrn": "MRN-344180",
+    "lastVisit": "2025-08-21",
+    "status": "Active",
+    "conditions": [
+      "Heart Failure",
+      "Heart Failure",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m510",
+        "name": "Clopidogrel",
+        "dose": "54mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-03-15",
+        "status": "Active"
+      },
+      {
+        "id": "m511",
+        "name": "Clopidogrel",
+        "dose": "52mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-02-11",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "4.02",
+        "unit": "",
+        "date": "2024-01-24",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.89",
+        "unit": "",
+        "date": "2025-08-24",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "1.56",
+        "unit": "%",
+        "date": "2025-12-17",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "0.92",
+        "unit": "",
+        "date": "2026-02-26",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.75",
+        "unit": "mg/dL",
+        "date": "2024-08-27",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "53",
+    "name": "Emily Clark",
+    "age": 35,
+    "sex": "F",
+    "mrn": "MRN-399687",
+    "lastVisit": "2025-08-25",
+    "status": "Active",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m520",
+        "name": "Aspirin",
+        "dose": "73mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-01-22",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m521",
+        "name": "Clopidogrel",
+        "dose": "30mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-09-25",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "2.05",
+        "unit": "",
+        "date": "2026-06-24",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.02",
+        "unit": "",
+        "date": "2026-10-20",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.59",
+        "unit": "mL/min",
+        "date": "2025-07-10",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*2/*2",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "54",
+    "name": "Sarah Jenkins",
+    "age": 76,
+    "sex": "M",
+    "mrn": "MRN-733514",
+    "lastVisit": "2026-07-06",
+    "status": "Active",
+    "conditions": [
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m530",
+        "name": "Atorvastatin",
+        "dose": "42mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2017-12-05",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "2.78",
+        "unit": "mL/min",
+        "date": "2026-01-24",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.74",
+        "unit": "U/L",
+        "date": "2025-10-18",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "7.56",
+        "unit": "mL/min",
+        "date": "2026-06-21",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "4.44",
+        "unit": "mL/min",
+        "date": "2024-11-22",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "2.9",
+        "unit": "%",
+        "date": "2024-01-16",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "55",
+    "name": "John Lee",
+    "age": 89,
+    "sex": "F",
+    "mrn": "MRN-178946",
+    "lastVisit": "2025-04-16",
+    "status": "Inactive",
+    "conditions": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m540",
+        "name": "Atorvastatin",
+        "dose": "66mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-01-13",
+        "status": "Active"
+      },
+      {
+        "id": "m541",
+        "name": "Ticagrelor",
+        "dose": "88mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-09-08",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "4.05",
+        "unit": "%",
+        "date": "2025-06-01",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "7.18",
+        "unit": "mg/dL",
+        "date": "2024-04-03",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "4.71",
+        "unit": "mL/min",
+        "date": "2026-02-25",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "3.33",
+        "unit": "",
+        "date": "2025-05-22",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "56",
+    "name": "Linda Brown",
+    "age": 81,
+    "sex": "M",
+    "mrn": "MRN-973198",
+    "lastVisit": "2026-08-04",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m550",
+        "name": "Prasugrel",
+        "dose": "99mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-12-07",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.57",
+        "unit": "U/L",
+        "date": "2025-12-09",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.25",
+        "unit": "mL/min",
+        "date": "2024-01-06",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "57",
+    "name": "David Kim",
+    "age": 69,
+    "sex": "M",
+    "mrn": "MRN-538489",
+    "lastVisit": "2025-02-06",
+    "status": "Active",
+    "conditions": [
+      "Stroke",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m560",
+        "name": "Aspirin",
+        "dose": "39mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2020-04-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "6.27",
+        "unit": "U/L",
+        "date": "2025-10-18",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.65",
+        "unit": "%",
+        "date": "2026-12-28",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "6.32",
+        "unit": "%",
+        "date": "2024-05-28",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "7.94",
+        "unit": "U/L",
+        "date": "2024-09-26",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.54",
+        "unit": "mg/dL",
+        "date": "2025-12-22",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "58",
+    "name": "Emily Clark",
+    "age": 34,
+    "sex": "F",
+    "mrn": "MRN-673788",
+    "lastVisit": "2026-08-18",
+    "status": "Inactive",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m570",
+        "name": "Prasugrel",
+        "dose": "43mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-10-08",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m571",
+        "name": "Clopidogrel",
+        "dose": "56mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2016-12-15",
+        "status": "Active"
+      },
+      {
+        "id": "m572",
+        "name": "Metformin",
+        "dose": "42mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2018-11-26",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.83",
+        "unit": "mL/min",
+        "date": "2024-03-16",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.42",
+        "unit": "mg/dL",
+        "date": "2024-04-08",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*2/*2",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "59",
+    "name": "Sarah Jenkins",
+    "age": 90,
+    "sex": "F",
+    "mrn": "MRN-987157",
+    "lastVisit": "2025-07-10",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m580",
+        "name": "Metformin",
+        "dose": "27mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2018-12-13",
+        "status": "Active"
+      },
+      {
+        "id": "m581",
+        "name": "Ticagrelor",
+        "dose": "74mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-03-09",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "1.96",
+        "unit": "mL/min",
+        "date": "2024-02-17",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.89",
+        "unit": "%",
+        "date": "2025-09-24",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "60",
+    "name": "Emily Clark",
+    "age": 51,
+    "sex": "F",
+    "mrn": "MRN-362172",
+    "lastVisit": "2025-02-28",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "Asthma",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m590",
+        "name": "Atorvastatin",
+        "dose": "82mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-05-09",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "4.73",
+        "unit": "%",
+        "date": "2024-12-15",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.38",
+        "unit": "",
+        "date": "2024-09-23",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.17",
+        "unit": "mL/min",
+        "date": "2025-10-14",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "6.49",
+        "unit": "mL/min",
+        "date": "2025-11-19",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "7.07",
+        "unit": "mL/min",
+        "date": "2024-01-16",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "61",
+    "name": "Mohammed Ali",
+    "age": 84,
+    "sex": "M",
+    "mrn": "MRN-117907",
+    "lastVisit": "2026-07-18",
+    "status": "Active",
+    "conditions": [
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m600",
+        "name": "Aspirin",
+        "dose": "23mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-07-07",
+        "status": "Active"
+      },
+      {
+        "id": "m601",
+        "name": "Prasugrel",
+        "dose": "10mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-09-10",
+        "status": "Active"
+      },
+      {
+        "id": "m602",
+        "name": "Metformin",
+        "dose": "54mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-11-02",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "0.94",
+        "unit": "U/L",
+        "date": "2026-07-13",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "5.68",
+        "unit": "",
+        "date": "2024-01-08",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "7.58",
+        "unit": "",
+        "date": "2025-10-27",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "62",
+    "name": "James Smith",
+    "age": 47,
+    "sex": "M",
+    "mrn": "MRN-441707",
+    "lastVisit": "2025-03-03",
+    "status": "Inactive",
+    "conditions": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m610",
+        "name": "Prasugrel",
+        "dose": "47mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2019-12-14",
+        "status": "Active"
+      },
+      {
+        "id": "m611",
+        "name": "Warfarin",
+        "dose": "77mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-12-24",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "7.63",
+        "unit": "",
+        "date": "2025-03-16",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.95",
+        "unit": "mg/dL",
+        "date": "2025-11-19",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "63",
+    "name": "John Lee",
+    "age": 50,
+    "sex": "F",
+    "mrn": "MRN-933951",
+    "lastVisit": "2025-07-12",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m620",
+        "name": "Warfarin",
+        "dose": "38mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2017-01-22",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m621",
+        "name": "Prasugrel",
+        "dose": "15mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-01-27",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m622",
+        "name": "Clopidogrel",
+        "dose": "44mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-03-07",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "7.79",
+        "unit": "mg/dL",
+        "date": "2024-11-06",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.89",
+        "unit": "U/L",
+        "date": "2024-04-23",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "64",
+    "name": "Robert Chen",
+    "age": 32,
+    "sex": "F",
+    "mrn": "MRN-546406",
+    "lastVisit": "2026-08-05",
+    "status": "Active",
+    "conditions": [
+      "Stroke",
+      "Hyperlipidemia",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m630",
+        "name": "Aspirin",
+        "dose": "97mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-03-24",
+        "status": "Active"
+      },
+      {
+        "id": "m631",
+        "name": "Aspirin",
+        "dose": "48mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-09-25",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "6.61",
+        "unit": "U/L",
+        "date": "2024-05-22",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "5.76",
+        "unit": "mL/min",
+        "date": "2025-01-21",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "65",
+    "name": "John Lee",
+    "age": 50,
+    "sex": "F",
+    "mrn": "MRN-695888",
+    "lastVisit": "2026-02-07",
+    "status": "Inactive",
+    "conditions": [
+      "Myocardial Infarction",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m640",
+        "name": "Aspirin",
+        "dose": "67mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-08-13",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "1.39",
+        "unit": "U/L",
+        "date": "2024-09-11",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "7.44",
+        "unit": "mL/min",
+        "date": "2026-07-03",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "66",
+    "name": "Robert Chen",
+    "age": 63,
+    "sex": "F",
+    "mrn": "MRN-483951",
+    "lastVisit": "2026-10-12",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m650",
+        "name": "Prasugrel",
+        "dose": "82mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-06-08",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "2.31",
+        "unit": "mL/min",
+        "date": "2024-10-08",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.59",
+        "unit": "mg/dL",
+        "date": "2025-10-04",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.26",
+        "unit": "U/L",
+        "date": "2026-02-13",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "5.74",
+        "unit": "",
+        "date": "2025-12-06",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "67",
+    "name": "Linda Brown",
+    "age": 84,
+    "sex": "F",
+    "mrn": "MRN-900906",
+    "lastVisit": "2025-03-03",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma",
+      "Hyperlipidemia",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m660",
+        "name": "Clopidogrel",
+        "dose": "13mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-09-28",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m661",
+        "name": "Ticagrelor",
+        "dose": "71mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2018-11-18",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "4.24",
+        "unit": "mL/min",
+        "date": "2025-12-07",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "2.86",
+        "unit": "mg/dL",
+        "date": "2025-03-16",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "5.0",
+        "unit": "mL/min",
+        "date": "2025-05-24",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "68",
+    "name": "James Smith",
+    "age": 39,
+    "sex": "F",
+    "mrn": "MRN-879874",
+    "lastVisit": "2025-02-27",
+    "status": "Active",
+    "conditions": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m670",
+        "name": "Prasugrel",
+        "dose": "87mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2022-08-22",
+        "status": "Active"
+      },
+      {
+        "id": "m671",
+        "name": "Aspirin",
+        "dose": "76mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2017-05-01",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "1.63",
+        "unit": "mg/dL",
+        "date": "2026-12-27",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "6.64",
+        "unit": "",
+        "date": "2026-01-02",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "3.71",
+        "unit": "mL/min",
+        "date": "2026-07-11",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "7.49",
+        "unit": "%",
+        "date": "2024-08-01",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "69",
+    "name": "Linda Brown",
+    "age": 48,
+    "sex": "F",
+    "mrn": "MRN-893605",
+    "lastVisit": "2025-06-12",
+    "status": "Active",
+    "conditions": [
+      "Heart Failure",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m680",
+        "name": "Prasugrel",
+        "dose": "25mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2023-09-17",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "4.98",
+        "unit": "mL/min",
+        "date": "2026-06-03",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.27",
+        "unit": "%",
+        "date": "2025-01-05",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "4.72",
+        "unit": "",
+        "date": "2025-11-08",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "6.2",
+        "unit": "U/L",
+        "date": "2026-10-07",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "1.71",
+        "unit": "U/L",
+        "date": "2025-09-07",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "70",
+    "name": "John Lee",
+    "age": 25,
+    "sex": "F",
+    "mrn": "MRN-529416",
+    "lastVisit": "2025-02-21",
+    "status": "Inactive",
+    "conditions": [
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m690",
+        "name": "Prasugrel",
+        "dose": "10mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2020-02-27",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m691",
+        "name": "Metformin",
+        "dose": "73mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-04-28",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "1.35",
+        "unit": "%",
+        "date": "2026-03-27",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.8",
+        "unit": "%",
+        "date": "2026-07-11",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "4.35",
+        "unit": "mL/min",
+        "date": "2025-12-05",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.19",
+        "unit": "U/L",
+        "date": "2025-11-05",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "7.51",
+        "unit": "%",
+        "date": "2025-01-12",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "71",
+    "name": "Sarah Jenkins",
+    "age": 27,
+    "sex": "M",
+    "mrn": "MRN-701437",
+    "lastVisit": "2025-05-08",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m700",
+        "name": "Ticagrelor",
+        "dose": "39mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-04-18",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m701",
+        "name": "Ticagrelor",
+        "dose": "22mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-01-13",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m702",
+        "name": "Metformin",
+        "dose": "95mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-01-02",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "5.14",
+        "unit": "mL/min",
+        "date": "2024-06-17",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.12",
+        "unit": "U/L",
+        "date": "2025-07-01",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "1.78",
+        "unit": "",
+        "date": "2026-03-07",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "3.94",
+        "unit": "mL/min",
+        "date": "2024-11-06",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "72",
+    "name": "Aisha Patel",
+    "age": 73,
+    "sex": "F",
+    "mrn": "MRN-776637",
+    "lastVisit": "2025-03-05",
+    "status": "Inactive",
+    "conditions": [
+      "CKD",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m710",
+        "name": "Prasugrel",
+        "dose": "41mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2018-04-14",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m711",
+        "name": "Atorvastatin",
+        "dose": "91mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-02-14",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "6.61",
+        "unit": "U/L",
+        "date": "2026-07-26",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "1.9",
+        "unit": "U/L",
+        "date": "2025-08-15",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "1.32",
+        "unit": "%",
+        "date": "2024-02-25",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "0.87",
+        "unit": "",
+        "date": "2026-11-02",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "73",
+    "name": "Aisha Patel",
+    "age": 47,
+    "sex": "M",
+    "mrn": "MRN-766966",
+    "lastVisit": "2025-08-01",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m720",
+        "name": "Atorvastatin",
+        "dose": "36mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-04-14",
+        "status": "Active"
+      },
+      {
+        "id": "m721",
+        "name": "Warfarin",
+        "dose": "60mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-12-25",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m722",
+        "name": "Atorvastatin",
+        "dose": "81mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-11-06",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "2.24",
+        "unit": "",
+        "date": "2026-05-17",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "5.33",
+        "unit": "mL/min",
+        "date": "2025-06-16",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "4.22",
+        "unit": "%",
+        "date": "2024-05-08",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "5.32",
+        "unit": "U/L",
+        "date": "2024-03-10",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.71",
+        "unit": "%",
+        "date": "2024-01-24",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "74",
+    "name": "Aisha Patel",
+    "age": 87,
+    "sex": "M",
+    "mrn": "MRN-608415",
+    "lastVisit": "2026-10-02",
+    "status": "Active",
+    "conditions": [
+      "CKD"
+    ],
+    "medications": [
+      {
+        "id": "m730",
+        "name": "Metformin",
+        "dose": "99mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-11-08",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "2.01",
+        "unit": "",
+        "date": "2024-11-15",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "2.35",
+        "unit": "%",
+        "date": "2024-05-20",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "75",
+    "name": "Linda Brown",
+    "age": 63,
+    "sex": "F",
+    "mrn": "MRN-530451",
+    "lastVisit": "2025-09-25",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m740",
+        "name": "Prasugrel",
+        "dose": "65mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-08-14",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m741",
+        "name": "Metformin",
+        "dose": "62mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-11-04",
+        "status": "Active"
+      },
+      {
+        "id": "m742",
+        "name": "Prasugrel",
+        "dose": "54mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2019-10-15",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "2.8",
+        "unit": "",
+        "date": "2024-11-18",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "4.36",
+        "unit": "",
+        "date": "2025-03-09",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "76",
+    "name": "David Kim",
+    "age": 72,
+    "sex": "F",
+    "mrn": "MRN-694173",
+    "lastVisit": "2025-06-05",
+    "status": "Active",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m750",
+        "name": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-02-20",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "1.09",
+        "unit": "",
+        "date": "2026-08-26",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.7",
+        "unit": "mL/min",
+        "date": "2024-02-02",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "6.91",
+        "unit": "",
+        "date": "2026-04-27",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "77",
+    "name": "Mohammed Ali",
+    "age": 79,
+    "sex": "M",
+    "mrn": "MRN-252851",
+    "lastVisit": "2025-09-23",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m760",
+        "name": "Clopidogrel",
+        "dose": "77mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-08-24",
+        "status": "Active"
+      },
+      {
+        "id": "m761",
+        "name": "Clopidogrel",
+        "dose": "41mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2019-12-22",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.02",
+        "unit": "%",
+        "date": "2026-09-14",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.32",
+        "unit": "%",
+        "date": "2024-07-20",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.11",
+        "unit": "%",
+        "date": "2024-01-22",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "3.55",
+        "unit": "mg/dL",
+        "date": "2025-09-23",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "78",
+    "name": "James Smith",
+    "age": 31,
+    "sex": "F",
+    "mrn": "MRN-846899",
+    "lastVisit": "2026-08-18",
+    "status": "Active",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m770",
+        "name": "Prasugrel",
+        "dose": "57mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2024-07-18",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "1.12",
+        "unit": "U/L",
+        "date": "2024-05-16",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "7.17",
+        "unit": "mg/dL",
+        "date": "2024-12-19",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "7.97",
+        "unit": "",
+        "date": "2025-10-16",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.67",
+        "unit": "U/L",
+        "date": "2026-01-07",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.78",
+        "unit": "mg/dL",
+        "date": "2026-02-17",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*2/*2",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "79",
+    "name": "James Smith",
+    "age": 66,
+    "sex": "F",
+    "mrn": "MRN-968185",
+    "lastVisit": "2025-07-25",
+    "status": "Inactive",
+    "conditions": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m780",
+        "name": "Aspirin",
+        "dose": "96mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-02-01",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m781",
+        "name": "Ticagrelor",
+        "dose": "70mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2026-11-28",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "6.62",
+        "unit": "mg/dL",
+        "date": "2026-01-14",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "7.68",
+        "unit": "U/L",
+        "date": "2024-06-06",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "2.6",
+        "unit": "%",
+        "date": "2024-07-04",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*2/*2",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "80",
+    "name": "Aisha Patel",
+    "age": 27,
+    "sex": "F",
+    "mrn": "MRN-102650",
+    "lastVisit": "2026-03-21",
+    "status": "Active",
+    "conditions": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m790",
+        "name": "Aspirin",
+        "dose": "79mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-06-09",
+        "status": "Active"
+      },
+      {
+        "id": "m791",
+        "name": "Clopidogrel",
+        "dose": "48mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2016-11-12",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "6.34",
+        "unit": "mL/min",
+        "date": "2025-10-06",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "3.0",
+        "unit": "%",
+        "date": "2025-10-11",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "1.42",
+        "unit": "mg/dL",
+        "date": "2024-09-15",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "5.34",
+        "unit": "",
+        "date": "2024-08-02",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.27",
+        "unit": "mL/min",
+        "date": "2026-02-20",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "81",
+    "name": "Sarah Jenkins",
+    "age": 31,
+    "sex": "M",
+    "mrn": "MRN-861988",
+    "lastVisit": "2025-09-23",
+    "status": "Active",
+    "conditions": [
+      "Type 2 Diabetes",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m800",
+        "name": "Warfarin",
+        "dose": "67mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-02-08",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m801",
+        "name": "Ticagrelor",
+        "dose": "54mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-08-06",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "6.77",
+        "unit": "",
+        "date": "2025-07-07",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.76",
+        "unit": "mg/dL",
+        "date": "2025-07-26",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "3.15",
+        "unit": "mg/dL",
+        "date": "2024-10-20",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "1.53",
+        "unit": "U/L",
+        "date": "2025-04-07",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*5/*5",
+          "phenotype": "Low Transporter Activity"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "82",
+    "name": "Robert Chen",
+    "age": 61,
+    "sex": "F",
+    "mrn": "MRN-248075",
+    "lastVisit": "2025-03-06",
+    "status": "Active",
+    "conditions": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "id": "m810",
+        "name": "Metformin",
+        "dose": "49mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-11-07",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "2.71",
+        "unit": "",
+        "date": "2024-02-04",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "6.29",
+        "unit": "%",
+        "date": "2025-10-08",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "2.09",
+        "unit": "mL/min",
+        "date": "2025-10-23",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "1.48",
+        "unit": "mg/dL",
+        "date": "2026-02-16",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.37",
+        "unit": "mg/dL",
+        "date": "2024-07-10",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "83",
+    "name": "Maria Lopez",
+    "age": 43,
+    "sex": "M",
+    "mrn": "MRN-199568",
+    "lastVisit": "2025-05-27",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "Hypertension",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m820",
+        "name": "Ticagrelor",
+        "dose": "17mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2025-09-19",
+        "status": "Active"
+      },
+      {
+        "id": "m821",
+        "name": "Warfarin",
+        "dose": "57mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-06-01",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "1.17",
+        "unit": "mL/min",
+        "date": "2026-04-15",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.27",
+        "unit": "mg/dL",
+        "date": "2026-11-02",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*1/*1",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "84",
+    "name": "Maria Lopez",
+    "age": 57,
+    "sex": "F",
+    "mrn": "MRN-266388",
+    "lastVisit": "2025-11-19",
+    "status": "Inactive",
+    "conditions": [
+      "Hypertension",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m830",
+        "name": "Prasugrel",
+        "dose": "31mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2016-12-01",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m831",
+        "name": "Aspirin",
+        "dose": "78mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-10-27",
+        "status": "Active"
+      },
+      {
+        "id": "m832",
+        "name": "Prasugrel",
+        "dose": "65mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-08-10",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "7.52",
+        "unit": "U/L",
+        "date": "2024-08-11",
+        "status": "Normal"
+      },
+      {
+        "name": "LDL",
+        "value": "3.2",
+        "unit": "mL/min",
+        "date": "2025-06-07",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "7.83",
+        "unit": "",
+        "date": "2025-05-07",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "4.9",
+        "unit": "mg/dL",
+        "date": "2024-06-11",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "7.8",
+        "unit": "",
+        "date": "2026-09-23",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "85",
+    "name": "Maria Lopez",
+    "age": 65,
+    "sex": "M",
+    "mrn": "MRN-155463",
+    "lastVisit": "2026-08-18",
+    "status": "Inactive",
+    "conditions": [
+      "Stroke",
+      "Stroke",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m840",
+        "name": "Aspirin",
+        "dose": "78mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-05-13",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "4.79",
+        "unit": "U/L",
+        "date": "2024-10-22",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.25",
+        "unit": "%",
+        "date": "2025-08-08",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "0.91",
+        "unit": "",
+        "date": "2026-03-26",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "2.17",
+        "unit": "U/L",
+        "date": "2025-03-15",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.89",
+        "unit": "",
+        "date": "2026-03-13",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "86",
+    "name": "Maria Lopez",
+    "age": 70,
+    "sex": "M",
+    "mrn": "MRN-509339",
+    "lastVisit": "2025-06-15",
+    "status": "Inactive",
+    "conditions": [
+      "Heart Failure",
+      "Heart Failure",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m850",
+        "name": "Ticagrelor",
+        "dose": "42mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2021-10-27",
+        "status": "Active"
+      },
+      {
+        "id": "m851",
+        "name": "Prasugrel",
+        "dose": "60mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-06-09",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "4.94",
+        "unit": "",
+        "date": "2026-04-13",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "2.52",
+        "unit": "",
+        "date": "2025-06-19",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*5/*5",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "87",
+    "name": "James Smith",
+    "age": 24,
+    "sex": "F",
+    "mrn": "MRN-440849",
+    "lastVisit": "2026-01-06",
+    "status": "Active",
+    "conditions": [
+      "Hypertension",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m860",
+        "name": "Aspirin",
+        "dose": "86mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2020-06-18",
+        "status": "Active"
+      },
+      {
+        "id": "m861",
+        "name": "Clopidogrel",
+        "dose": "67mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2023-04-18",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m862",
+        "name": "Prasugrel",
+        "dose": "68mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2016-08-10",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "1.2",
+        "unit": "mg/dL",
+        "date": "2025-09-10",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "5.62",
+        "unit": "%",
+        "date": "2026-08-04",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "6.12",
+        "unit": "U/L",
+        "date": "2026-09-20",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "6.17",
+        "unit": "",
+        "date": "2024-12-23",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C9",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "88",
+    "name": "Sarah Jenkins",
+    "age": 33,
+    "sex": "M",
+    "mrn": "MRN-209182",
+    "lastVisit": "2026-03-04",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia",
+      "Stroke",
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m870",
+        "name": "Warfarin",
+        "dose": "80mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2026-02-13",
+        "status": "Active"
+      },
+      {
+        "id": "m871",
+        "name": "Aspirin",
+        "dose": "80mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-02-27",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "5.79",
+        "unit": "%",
+        "date": "2025-05-14",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "5.03",
+        "unit": "%",
+        "date": "2026-03-24",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "89",
+    "name": "David Kim",
+    "age": 48,
+    "sex": "M",
+    "mrn": "MRN-915580",
+    "lastVisit": "2026-12-04",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m880",
+        "name": "Warfarin",
+        "dose": "25mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2015-12-20",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m881",
+        "name": "Prasugrel",
+        "dose": "26mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-03-14",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m882",
+        "name": "Prasugrel",
+        "dose": "42mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-10-12",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "4.52",
+        "unit": "mg/dL",
+        "date": "2024-09-19",
+        "status": "Normal"
+      },
+      {
+        "name": "HbA1c",
+        "value": "2.73",
+        "unit": "mL/min",
+        "date": "2024-07-22",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "2.37",
+        "unit": "mg/dL",
+        "date": "2025-07-10",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "4.52",
+        "unit": "mL/min",
+        "date": "2025-02-07",
+        "status": "Normal"
+      },
+      {
+        "name": "ALT",
+        "value": "2.88",
+        "unit": "",
+        "date": "2025-12-12",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "90",
+    "name": "James Smith",
+    "age": 79,
+    "sex": "F",
+    "mrn": "MRN-273090",
+    "lastVisit": "2026-01-19",
+    "status": "Active",
+    "conditions": [
+      "CKD",
+      "Heart Failure",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m890",
+        "name": "Atorvastatin",
+        "dose": "65mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-04-19",
+        "status": "Active"
+      },
+      {
+        "id": "m891",
+        "name": "Prasugrel",
+        "dose": "67mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2015-04-23",
+        "status": "Active"
+      },
+      {
+        "id": "m892",
+        "name": "Clopidogrel",
+        "dose": "16mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2022-07-07",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "HbA1c",
+        "value": "7.25",
+        "unit": "mL/min",
+        "date": "2025-02-13",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.0",
+        "unit": "%",
+        "date": "2025-09-02",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "4.63",
+        "unit": "mL/min",
+        "date": "2024-12-14",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.7",
+        "unit": "U/L",
+        "date": "2024-08-10",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "6.18",
+        "unit": "U/L",
+        "date": "2024-04-09",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "91",
+    "name": "Maria Lopez",
+    "age": 90,
+    "sex": "F",
+    "mrn": "MRN-687161",
+    "lastVisit": "2026-06-07",
+    "status": "Active",
+    "conditions": [
+      "COPD",
+      "Stroke",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m900",
+        "name": "Clopidogrel",
+        "dose": "36mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-11-17",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "3.43",
+        "unit": "U/L",
+        "date": "2024-09-26",
+        "status": "Low"
+      },
+      {
+        "name": "eGFR",
+        "value": "1.91",
+        "unit": "%",
+        "date": "2025-10-08",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Patient shows reduced response to standard antiplatelet therapy."
+  },
+  {
+    "id": "92",
+    "name": "Robert Chen",
+    "age": 48,
+    "sex": "F",
+    "mrn": "MRN-154736",
+    "lastVisit": "2025-12-03",
+    "status": "Inactive",
+    "conditions": [
+      "CKD",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "id": "m910",
+        "name": "Ticagrelor",
+        "dose": "88mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2024-10-09",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "7.2",
+        "unit": "mL/min",
+        "date": "2024-08-07",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "3.67",
+        "unit": "",
+        "date": "2025-08-28",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "7.35",
+        "unit": "%",
+        "date": "2025-04-28",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.9",
+        "unit": "",
+        "date": "2025-11-19",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*5/*5",
+          "phenotype": "Poor Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "93",
+    "name": "Linda Brown",
+    "age": 24,
+    "sex": "M",
+    "mrn": "MRN-449089",
+    "lastVisit": "2025-09-28",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "id": "m920",
+        "name": "Clopidogrel",
+        "dose": "18mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2024-12-27",
+        "status": "Active"
+      },
+      {
+        "id": "m921",
+        "name": "Clopidogrel",
+        "dose": "79mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-11-02",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m922",
+        "name": "Metformin",
+        "dose": "36mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2025-11-02",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "2.87",
+        "unit": "%",
+        "date": "2025-03-07",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "4.31",
+        "unit": "mL/min",
+        "date": "2026-10-10",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.9",
+        "unit": "",
+        "date": "2024-11-17",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "5.02",
+        "unit": "U/L",
+        "date": "2025-09-27",
+        "status": "Low"
+      },
+      {
+        "name": "LDL",
+        "value": "5.19",
+        "unit": "mg/dL",
+        "date": "2026-07-25",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "94",
+    "name": "Mohammed Ali",
+    "age": 70,
+    "sex": "F",
+    "mrn": "MRN-306034",
+    "lastVisit": "2025-07-22",
+    "status": "Inactive",
+    "conditions": [
+      "Stroke",
+      "Hyperlipidemia",
+      "Type 2 Diabetes"
+    ],
+    "medications": [
+      {
+        "id": "m930",
+        "name": "Metformin",
+        "dose": "44mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-12-01",
+        "status": "Active"
+      },
+      {
+        "id": "m931",
+        "name": "Ticagrelor",
+        "dose": "16mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-12-07",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m932",
+        "name": "Metformin",
+        "dose": "22mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2023-08-16",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "6.01",
+        "unit": "",
+        "date": "2026-04-20",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "4.86",
+        "unit": "",
+        "date": "2024-08-26",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "4.66",
+        "unit": "mg/dL",
+        "date": "2024-07-16",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "3.63",
+        "unit": "%",
+        "date": "2024-07-03",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "95",
+    "name": "Mohammed Ali",
+    "age": 72,
+    "sex": "F",
+    "mrn": "MRN-594161",
+    "lastVisit": "2026-05-06",
+    "status": "Inactive",
+    "conditions": [
+      "Hyperlipidemia",
+      "Hypertension",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m940",
+        "name": "Warfarin",
+        "dose": "48mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2021-02-15",
+        "status": "Active"
+      },
+      {
+        "id": "m941",
+        "name": "Warfarin",
+        "dose": "88mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2016-12-28",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "4.26",
+        "unit": "",
+        "date": "2026-04-17",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "3.54",
+        "unit": "mL/min",
+        "date": "2024-09-22",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "CYP2C19",
+          "variant": "*1/*1",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Possible metabolic variability suspected."
+  },
+  {
+    "id": "96",
+    "name": "Sarah Jenkins",
+    "age": 82,
+    "sex": "M",
+    "mrn": "MRN-403324",
+    "lastVisit": "2025-10-16",
+    "status": "Inactive",
+    "conditions": [
+      "Hyperlipidemia"
+    ],
+    "medications": [
+      {
+        "id": "m950",
+        "name": "Metformin",
+        "dose": "47mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2015-06-21",
+        "status": "Active"
+      },
+      {
+        "id": "m951",
+        "name": "Ticagrelor",
+        "dose": "31mg",
+        "frequency": "Daily",
+        "route": "Oral",
+        "startDate": "2019-06-24",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "ALT",
+        "value": "7.72",
+        "unit": "mg/dL",
+        "date": "2025-10-28",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "4.75",
+        "unit": "mL/min",
+        "date": "2024-04-09",
+        "status": "Normal"
+      },
+      {
+        "name": "INR",
+        "value": "4.29",
+        "unit": "mg/dL",
+        "date": "2026-08-24",
+        "status": "Normal"
+      },
+      {
+        "name": "eGFR",
+        "value": "7.38",
+        "unit": "U/L",
+        "date": "2025-11-11",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "1.56",
+        "unit": "mg/dL",
+        "date": "2025-04-25",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": {
+      "variants": [
+        {
+          "gene": "SLCO1B1",
+          "variant": "*2/*2",
+          "phenotype": "Normal Metabolizer"
+        }
+      ]
+    },
+    "clinicalNotes": "Stable on current regimen."
+  },
+  {
+    "id": "97",
+    "name": "Robert Chen",
+    "age": 86,
+    "sex": "F",
+    "mrn": "MRN-250044",
+    "lastVisit": "2025-09-26",
+    "status": "Inactive",
+    "conditions": [
+      "Hypertension",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "id": "m960",
+        "name": "Prasugrel",
+        "dose": "69mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2026-02-22",
+        "status": "Discontinued"
+      },
+      {
+        "id": "m961",
+        "name": "Aspirin",
+        "dose": "28mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2021-02-04",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "labs": [
+      {
+        "name": "LDL",
+        "value": "1.7",
+        "unit": "mg/dL",
+        "date": "2024-09-09",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "6.0",
+        "unit": "",
+        "date": "2025-10-11",
+        "status": "High"
+      },
+      {
+        "name": "INR",
+        "value": "4.85",
+        "unit": "",
+        "date": "2026-04-09",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "2.59",
+        "unit": "mL/min",
+        "date": "2024-09-24",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "History of adverse reaction to statins."
+  },
+  {
+    "id": "98",
+    "name": "John Lee",
+    "age": 32,
+    "sex": "F",
+    "mrn": "MRN-765651",
+    "lastVisit": "2026-11-07",
+    "status": "Active",
+    "conditions": [
+      "Hyperlipidemia",
+      "Myocardial Infarction",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "id": "m970",
+        "name": "Metformin",
+        "dose": "32mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2024-10-03",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Sulfa"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "7.83",
+        "unit": "mL/min",
+        "date": "2024-12-28",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.01",
+        "unit": "",
+        "date": "2025-05-19",
+        "status": "Low"
+      },
+      {
+        "name": "ALT",
+        "value": "7.2",
+        "unit": "U/L",
+        "date": "2026-09-09",
+        "status": "High"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Dose adjustment required due to bleeding risk."
+  },
+  {
+    "id": "99",
+    "name": "Linda Brown",
+    "age": 67,
+    "sex": "M",
+    "mrn": "MRN-110842",
+    "lastVisit": "2026-06-12",
+    "status": "Active",
+    "conditions": [
+      "Asthma",
+      "COPD"
+    ],
+    "medications": [
+      {
+        "id": "m980",
+        "name": "Clopidogrel",
+        "dose": "37mg",
+        "frequency": "BID",
+        "route": "Oral",
+        "startDate": "2022-03-03",
+        "status": "Active"
+      },
+      {
+        "id": "m981",
+        "name": "Warfarin",
+        "dose": "26mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2018-02-15",
+        "status": "Discontinued"
+      }
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "labs": [
+      {
+        "name": "eGFR",
+        "value": "2.79",
+        "unit": "mg/dL",
+        "date": "2025-07-09",
+        "status": "High"
+      },
+      {
+        "name": "LDL",
+        "value": "6.23",
+        "unit": "",
+        "date": "2024-05-02",
+        "status": "Low"
+      },
+      {
+        "name": "INR",
+        "value": "5.19",
+        "unit": "%",
+        "date": "2025-06-12",
+        "status": "Low"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Consider alternative anticoagulant due to INR variability."
+  },
+  {
+    "id": "100",
+    "name": "David Kim",
+    "age": 53,
+    "sex": "F",
+    "mrn": "MRN-627602",
+    "lastVisit": "2025-09-21",
+    "status": "Active",
+    "conditions": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "id": "m990",
+        "name": "Warfarin",
+        "dose": "38mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2023-01-05",
+        "status": "Active"
+      },
+      {
+        "id": "m991",
+        "name": "Metformin",
+        "dose": "17mg",
+        "frequency": "TID",
+        "route": "Oral",
+        "startDate": "2025-04-20",
+        "status": "Active"
+      }
+    ],
+    "allergies": [
+      "None"
+    ],
+    "labs": [
+      {
+        "name": "INR",
+        "value": "3.66",
+        "unit": "U/L",
+        "date": "2024-09-03",
+        "status": "High"
+      },
+      {
+        "name": "HbA1c",
+        "value": "6.51",
+        "unit": "U/L",
+        "date": "2024-11-16",
+        "status": "High"
+      },
+      {
+        "name": "ALT",
+        "value": "1.48",
+        "unit": "%",
+        "date": "2026-06-11",
+        "status": "High"
+      },
+      {
+        "name": "eGFR",
+        "value": "5.83",
+        "unit": "mL/min",
+        "date": "2025-05-11",
+        "status": "Low"
+      },
+      {
+        "name": "HbA1c",
+        "value": "7.52",
+        "unit": "%",
+        "date": "2026-05-18",
+        "status": "Normal"
+      }
+    ],
+    "genomicProfile": null,
+    "clinicalNotes": "Possible metabolic variability suspected."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "d1",
+    "name": "Clopidogrel",
+    "class_": "P2Y12 Inhibitor (Prodrug)",
+    "standardDose": "75mg",
+    "indications": ["Post-MI", "Stroke Prevention"]
+  },
+  {
+    "id": "d2",
+    "name": "Warfarin",
+    "class_": "Vitamin K Antagonist",
+    "standardDose": "5mg",
+    "indications": ["Atrial Fibrillation", "DVT/PE"]
+  },
+  {
+    "id": "d3",
+    "name": "Ticagrelor",
+    "class_": "P2Y12 Inhibitor (Direct)",
+    "standardDose": "90mg",
+    "indications": ["Post-MI"]
+  },
+  {
+    "id": "d4",
+    "name": "Prasugrel",
+    "class_": "P2Y12 Inhibitor (Thienopyridine)",
+    "standardDose": "10mg",
+    "indications": ["Post-MI"]
+  },
+  {
+    "id": "d5",
+    "name": "Apixaban",
+    "class_": "Direct Factor Xa Inhibitor (DOAC)",
+    "standardDose": "5mg",
+    "indications": ["Atrial Fibrillation"]
+  },
+  {
+    "id": "d6",
+    "name": "Rivaroxaban",
+    "class_": "Direct Factor Xa Inhibitor (DOAC)",
+    "standardDose": "20mg",
+    "indications": ["Atrial Fibrillation"]
+  }
+]
