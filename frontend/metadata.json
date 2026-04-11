@@ -1,0 +1,5 @@
+{
+  "name": "GenomixAI",
+  "description": "Hospital-grade Electronic Health Record (EHR) with AI-powered clinical decision support for pharmacogenomic-guided medication management.",
+  "requestFramePermissions": []
+}
