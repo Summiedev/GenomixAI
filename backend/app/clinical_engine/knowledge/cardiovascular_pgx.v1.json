@@ -1,0 +1,660 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "genomixai-cardiovascular-pgx",
+  "dataset_version": "2026.08.30",
+  "title": "GenomixAI manually curated cardiovascular pharmacogenomics starter set",
+  "curated_on": "2026-08-30",
+  "review_due": "2027-02-28",
+  "clinical_status": "CURATED_RESEARCH_SUPPORT_ONLY",
+  "disclaimer": "This five-drug dataset is a traceable clinical-knowledge input, not a prescription or autonomous medical recommendation. The consuming service must apply the cited indication, patient, genotype, comorbidity, and co-medication scope and must not treat synthetic genomic data as clinically validated.",
+  "sources": [
+    {
+      "source_id": "RXNORM_2026_08_03",
+      "publisher": "U.S. National Library of Medicine",
+      "title": "RxNorm API and normalized ingredient concepts",
+      "source_type": "STANDARDIZED_TERMINOLOGY",
+      "source_version": "RxNorm release 03-Aug-2026; API 3.1.355",
+      "publication_date": "2026-08-03",
+      "accessed_date": "2026-08-30",
+      "url": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
+      "identifiers": ["RxNorm"]
+    },
+    {
+      "source_id": "FDA_PGX_TABLE_2022_10_26",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Table of Pharmacogenetic Associations",
+      "source_type": "REGULATORY_ASSOCIATION_TABLE",
+      "source_version": "Content current as of 2022-10-26",
+      "publication_date": "2022-10-26",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+      "identifiers": ["FDA PGx Table"],
+      "notes": "FDA states that Section 1 supports therapeutic-management recommendations, Section 2 identifies potential safety or response impact, and Section 3 identifies pharmacokinetic effects whose impact on safety or response is not established."
+    },
+    {
+      "source_id": "FDA_LABEL_CLOPIDOGREL_2023_09",
+      "publisher": "U.S. Food and Drug Administration via DailyMed",
+      "title": "Clopidogrel tablets prescribing information",
+      "source_type": "FDA_PRESCRIBING_INFORMATION",
+      "source_version": "Revised 09/2023",
+      "accessed_date": "2026-08-30",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b573aefa-e337-478f-97e4-eb8472a7e497",
+      "identifiers": ["DailyMed setid b573aefa-e337-478f-97e4-eb8472a7e497"]
+    },
+    {
+      "source_id": "FDA_LABEL_WARFARIN_2026_06",
+      "publisher": "U.S. Food and Drug Administration via DailyMed",
+      "title": "Warfarin sodium tablets prescribing information",
+      "source_type": "FDA_PRESCRIBING_INFORMATION",
+      "source_version": "Revised 06/2026",
+      "accessed_date": "2026-08-30",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=545ec40d-2db1-4581-b3ec-ce195e5f5400",
+      "identifiers": ["DailyMed setid 545ec40d-2db1-4581-b3ec-ce195e5f5400"]
+    },
+    {
+      "source_id": "FDA_LABEL_SIMVASTATIN_2026_01",
+      "publisher": "U.S. Food and Drug Administration via DailyMed",
+      "title": "Simvastatin tablets prescribing information",
+      "source_type": "FDA_PRESCRIBING_INFORMATION",
+      "source_version": "Revised 01/2026",
+      "accessed_date": "2026-08-30",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30fe2447-4dd3-43e6-bac5-0f754ab77c3a",
+      "identifiers": ["DailyMed setid 30fe2447-4dd3-43e6-bac5-0f754ab77c3a"]
+    },
+    {
+      "source_id": "FDA_LABEL_ATORVASTATIN_2025_03",
+      "publisher": "U.S. Food and Drug Administration via DailyMed",
+      "title": "Atorvastatin calcium tablets prescribing information",
+      "source_type": "FDA_PRESCRIBING_INFORMATION",
+      "source_version": "Revised 03/2025",
+      "accessed_date": "2026-08-30",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb825db4-3798-4d69-8559-46b3ab0c8bd9",
+      "identifiers": ["DailyMed setid bb825db4-3798-4d69-8559-46b3ab0c8bd9"]
+    },
+    {
+      "source_id": "FDA_LABEL_METOPROLOL_2026_05",
+      "publisher": "U.S. Food and Drug Administration via DailyMed",
+      "title": "Metoprolol succinate extended-release tablets prescribing information",
+      "source_type": "FDA_PRESCRIBING_INFORMATION",
+      "source_version": "Revised 05/2026",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=bd77ec6e-c58c-440b-81d6-8a462b2fdc9c&type=pdf",
+      "identifiers": ["DailyMed setid bd77ec6e-c58c-440b-81d6-8a462b2fdc9c"]
+    },
+    {
+      "source_id": "CPIC_CLOPIDOGREL_2022",
+      "publisher": "Clinical Pharmacogenetics Implementation Consortium",
+      "title": "CPIC Guideline for CYP2C19 Genotype and Clopidogrel Therapy: 2022 Update",
+      "source_type": "CLINICAL_GUIDELINE",
+      "source_version": "2022 Update",
+      "accessed_date": "2026-08-30",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/clopidogrel/2022/35034351.pdf",
+      "identifiers": ["PMID 35034351", "DOI 10.1002/cpt.2526"]
+    },
+    {
+      "source_id": "CPIC_WARFARIN_2017",
+      "publisher": "Clinical Pharmacogenetics Implementation Consortium",
+      "title": "CPIC Guideline for Pharmacogenetics-Guided Warfarin Dosing: 2017 Update",
+      "source_type": "CLINICAL_GUIDELINE",
+      "source_version": "2017 Update",
+      "accessed_date": "2026-08-30",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/warfarin/2017/warfarin.pdf",
+      "identifiers": ["PMID 28198005", "DOI 10.1002/cpt.668"]
+    },
+    {
+      "source_id": "CPIC_STATINS_2022",
+      "publisher": "Clinical Pharmacogenetics Implementation Consortium",
+      "title": "CPIC Guideline for SLCO1B1, ABCG2, and CYP2C9 Genotypes and Statin-Associated Musculoskeletal Symptoms",
+      "source_type": "CLINICAL_GUIDELINE",
+      "source_version": "May 2022 guideline",
+      "accessed_date": "2026-08-30",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/statins/2022/publication.pdf",
+      "identifiers": ["PMID 35152405", "DOI 10.1002/cpt.2557"]
+    },
+    {
+      "source_id": "CPIC_BETA_BLOCKERS_2024",
+      "publisher": "Clinical Pharmacogenetics Implementation Consortium",
+      "title": "CPIC Guideline for CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 Genotypes and Beta-Blocker Therapy",
+      "source_type": "CLINICAL_GUIDELINE",
+      "source_version": "2024 guideline",
+      "accessed_date": "2026-08-30",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/beta_blockers/2024/38951961.pdf",
+      "identifiers": ["PMID 38951961", "DOI 10.1002/cpt.3351"]
+    },
+    {
+      "source_id": "CLINPGX_CLOPIDOGREL_CYP2C19_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Clopidogrel and CYP2C19 clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/1451282340",
+      "identifiers": ["Clinical annotation 1451282340", "Drug PA449053"]
+    },
+    {
+      "source_id": "CLINPGX_WARFARIN_CYP2C9_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Warfarin and CYP2C9 clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/981238341",
+      "identifiers": ["Clinical annotation 981238341"]
+    },
+    {
+      "source_id": "CLINPGX_WARFARIN_VKORC1_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Warfarin and VKORC1 rs9923231 clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/655385012",
+      "identifiers": ["Clinical annotation 655385012", "rs9923231"]
+    },
+    {
+      "source_id": "CLINPGX_WARFARIN_CYP4F2_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Warfarin and CYP4F2 rs2108622 clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/655385400",
+      "identifiers": ["Clinical annotation 655385400", "rs2108622"]
+    },
+    {
+      "source_id": "CLINPGX_SIMVASTATIN_SLCO1B1_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Simvastatin and SLCO1B1 rs4149056 myopathy clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/655384011",
+      "identifiers": ["Clinical annotation 655384011", "rs4149056"]
+    },
+    {
+      "source_id": "CLINPGX_ATORVASTATIN_SLCO1B1_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Atorvastatin and SLCO1B1 myopathy clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/1043880818",
+      "identifiers": ["Clinical annotation 1043880818"]
+    },
+    {
+      "source_id": "CLINPGX_METOPROLOL_CYP2D6_1A",
+      "publisher": "ClinPGx (formerly PharmGKB)",
+      "title": "Metoprolol and CYP2D6 dosage clinical annotation",
+      "source_type": "CLINICAL_ANNOTATION",
+      "source_version": "Live ClinPGx record; no static release identifier displayed; accessed 2026-08-30",
+      "accessed_date": "2026-08-30",
+      "url": "https://www.clinpgx.org/clinicalAnnotation/1450415170",
+      "identifiers": ["Clinical annotation 1450415170"]
+    }
+  ],
+  "drugs": [
+    {"drug_id": "rxnorm:32968", "generic_name": "clopidogrel", "rxnorm_rxcui": "32968", "rxnorm_term_type": "IN"},
+    {"drug_id": "rxnorm:11289", "generic_name": "warfarin", "rxnorm_rxcui": "11289", "rxnorm_term_type": "IN"},
+    {"drug_id": "rxnorm:36567", "generic_name": "simvastatin", "rxnorm_rxcui": "36567", "rxnorm_term_type": "IN"},
+    {"drug_id": "rxnorm:83367", "generic_name": "atorvastatin", "rxnorm_rxcui": "83367", "rxnorm_term_type": "IN"},
+    {"drug_id": "rxnorm:6918", "generic_name": "metoprolol", "rxnorm_rxcui": "6918", "rxnorm_term_type": "IN"}
+  ],
+  "claims": [
+    {
+      "claim_id": "clopidogrel.indications",
+      "drug_id": "rxnorm:32968",
+      "category": "INDICATION",
+      "statement": "The label indicates clopidogrel for acute coronary syndrome in combination with aspirin and for patients with recent myocardial infarction, recent stroke, or established peripheral arterial disease.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Indications and Usage, sections 1.1-1.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.cyp2c19.im-pm.acs-pci",
+      "drug_id": "rxnorm:32968",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "CYP2C19",
+      "phenotype_or_genotype": "Intermediate metabolizer or poor metabolizer",
+      "indication_scope": "Acute coronary syndrome and/or percutaneous coronary intervention",
+      "statement": "CYP2C19 intermediate and poor metabolizers have reduced formation of clopidogrel active metabolite, reduced platelet inhibition, and increased risk of major adverse cardiovascular and cerebrovascular events in ACS/PCI populations compared with normal metabolizers.",
+      "evidence_status": "ACTIONABLE",
+      "recommendation": "Avoid standard-dose clopidogrel if possible and use prasugrel or ticagrelor at the standard dose when the alternative is clinically appropriate and not contraindicated.",
+      "limitations": "The recommendation and its strength are indication-specific; CPIC provides separate neurovascular guidance and does not make this a universal recommendation for every clopidogrel use.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 1, clopidogrel-CYP2C19 row", "native_evidence_level": "FDA Table Section 1"},
+        {"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Boxed Warning and section 12.5 Pharmacogenomics", "native_evidence_level": "FDA regulatory label"},
+        {"source_id": "CPIC_CLOPIDOGREL_2022", "locator": "Table 2, cardiovascular indications", "native_evidence_level": "CPIC Strong"},
+        {"source_id": "CLINPGX_CLOPIDOGREL_CYP2C19_1A", "locator": "Clinical annotation 1451282340", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "clopidogrel.contraindications",
+      "drug_id": "rxnorm:32968",
+      "category": "CONTRAINDICATION",
+      "statement": "Clopidogrel is contraindicated in active pathological bleeding and in hypersensitivity to clopidogrel or a product component.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Contraindications, sections 4.1-4.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.interaction.cyp2c19-inhibitors",
+      "drug_id": "rxnorm:32968",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "omeprazole or esomeprazole",
+      "statement": "Omeprazole and esomeprazole significantly reduce clopidogrel antiplatelet activity, including when administered 12 hours apart.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Avoid concomitant use of omeprazole or esomeprazole.",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Drug Interactions, section 7.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.interaction.bleeding-risk",
+      "drug_id": "rxnorm:32968",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "warfarin, NSAIDs, SSRIs, SNRIs, or other antiplatelet agents",
+      "statement": "Concomitant agents that affect hemostasis can increase bleeding risk with clopidogrel; warfarin coadministration increases bleeding risk and NSAID coadministration increases gastrointestinal bleeding risk.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Assess and monitor for bleeding when combination therapy is clinically required.",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Warnings 5.2 and Drug Interactions 7.3-7.5", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.dose.acs",
+      "drug_id": "rxnorm:32968",
+      "category": "DOSE_CONSIDERATION",
+      "indication_scope": "Acute coronary syndrome",
+      "statement": "The labeled ACS regimen is a single 300 mg loading dose followed by 75 mg once daily, initiated with aspirin; omitting a loading dose delays establishment of antiplatelet effect by several days.",
+      "evidence_status": "REGULATORY_LABEL",
+      "limitations": "This is a labeled regimen, not a genotype-specific dose adjustment.",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Dosage and Administration, section 2.1", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.monitoring.bleeding",
+      "drug_id": "rxnorm:32968",
+      "category": "MONITORING",
+      "statement": "Monitor clinically for bleeding and evaluate suspected bleeding promptly; when antiplatelet effect is not desired, interrupt clopidogrel five days before surgery when feasible.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_CLOPIDOGREL_2023_09", "locator": "Warnings and Precautions, sections 5.2 and 5.3", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "clopidogrel.alternative.acs-pci",
+      "drug_id": "rxnorm:32968",
+      "category": "ALTERNATIVE",
+      "gene": "CYP2C19",
+      "phenotype_or_genotype": "Intermediate metabolizer or poor metabolizer",
+      "indication_scope": "Acute coronary syndrome and/or percutaneous coronary intervention",
+      "statement": "Prasugrel and ticagrelor are the CPIC-supported alternatives for CYP2C19 intermediate or poor metabolizers in ACS/PCI when neither alternative is contraindicated.",
+      "evidence_status": "ACTIONABLE",
+      "limitations": "This is an alternative consideration, not a mandatory prescription; contraindications and patient-specific factors still govern selection.",
+      "source_refs": [{"source_id": "CPIC_CLOPIDOGREL_2022", "locator": "Table 2, cardiovascular indications", "native_evidence_level": "CPIC Strong"}]
+    },
+    {
+      "claim_id": "clopidogrel.gap.platelet-function-testing",
+      "drug_id": "rxnorm:32968",
+      "category": "EVIDENCE_GAP",
+      "statement": "A routine platelet-function monitoring rule is not supplied by this dataset because platelet-function testing is outside the scope of the CPIC genotype guideline.",
+      "evidence_status": "INSUFFICIENT",
+      "source_refs": [{"source_id": "CPIC_CLOPIDOGREL_2022", "locator": "Guideline scope and limitations", "native_evidence_level": "Outside CPIC scope"}]
+    },
+
+    {
+      "claim_id": "warfarin.indications",
+      "drug_id": "rxnorm:11289",
+      "category": "INDICATION",
+      "statement": "The label indicates warfarin for prophylaxis and treatment of venous thrombosis and pulmonary embolism, thromboembolic complications associated with atrial fibrillation or cardiac valve replacement, and reduction of death, recurrent myocardial infarction, and thromboembolic events after myocardial infarction.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Indications and Usage, section 1", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "warfarin.pgx.cyp2c9-vkorc1",
+      "drug_id": "rxnorm:11289",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "CYP2C9; VKORC1",
+      "phenotype_or_genotype": "CYP2C9 decreased/no-function alleles and VKORC1 -1639G>A",
+      "statement": "CYP2C9 reduced-function genotypes and VKORC1 -1639G>A alter warfarin dose requirements; CYP2C9 intermediate or poor metabolism is also associated with altered warfarin exposure.",
+      "evidence_status": "ACTIONABLE",
+      "recommendation": "When genotype results are available before therapy, use a validated pharmacogenetic dosing algorithm that combines genetic and clinical factors and then titrate using INR.",
+      "limitations": "Algorithms must account for ancestry and tested alleles; CYP2C9 *2/*3-only panels can miss important decreased-function alleles in people of African ancestry.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 1, warfarin-CYP2C9 and warfarin-VKORC1 rows", "native_evidence_level": "FDA Table Section 1"},
+        {"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Dosage and Administration 2.3 and Clinical Pharmacology 12.5", "native_evidence_level": "FDA regulatory label"},
+        {"source_id": "CPIC_WARFARIN_2017", "locator": "Figures 2-3 and dosing recommendations", "native_evidence_level": "CPIC Strong for non-African ancestry; CPIC Moderate for specified African-ancestry recommendations"},
+        {"source_id": "CLINPGX_WARFARIN_CYP2C9_1A", "locator": "Clinical annotation 981238341", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"},
+        {"source_id": "CLINPGX_WARFARIN_VKORC1_1A", "locator": "Clinical annotation 655385012", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "warfarin.pgx.cyp4f2",
+      "drug_id": "rxnorm:11289",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "CYP4F2",
+      "phenotype_or_genotype": "CYP4F2*3 (rs2108622 T allele)",
+      "statement": "CYP4F2*3 can modestly increase warfarin dose requirements.",
+      "evidence_status": "LIMITED",
+      "recommendation": "For non-African ancestry, CPIC describes a 5-10% dose increase from the algorithm-derived dose as optional when CYP4F2*3 is known; continue INR-guided adjustment.",
+      "limitations": "CPIC rates this adjustment Optional and makes no recommendation for people of African ancestry because evidence is insufficient; it must not be applied universally.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 1, warfarin-CYP4F2 row", "native_evidence_level": "FDA Table Section 1"},
+        {"source_id": "CPIC_WARFARIN_2017", "locator": "CYP4F2 dosing recommendation", "native_evidence_level": "CPIC Optional; no recommendation for African ancestry"},
+        {"source_id": "CLINPGX_WARFARIN_CYP4F2_1A", "locator": "Clinical annotation 655385400", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "warfarin.contraindications",
+      "drug_id": "rxnorm:11289",
+      "category": "CONTRAINDICATION",
+      "statement": "Warfarin is contraindicated in pregnancy except in selected pregnant patients with mechanical heart valves at high thromboembolic risk, hemorrhagic tendencies or blood dyscrasias, recent or contemplated high-bleeding-risk surgery, active ulceration or overt bleeding, and other conditions listed in section 4 of the label.",
+      "evidence_status": "REGULATORY_LABEL",
+      "limitations": "This summary is not a replacement for the complete contraindication list in the current label.",
+      "source_refs": [{"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Contraindications, section 4", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "warfarin.interactions",
+      "drug_id": "rxnorm:11289",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "CYP2C9, CYP1A2, or CYP3A4 inhibitors/inducers; drugs that increase bleeding risk; antibiotics or antifungals; selected botanicals",
+      "statement": "Warfarin has numerous major interactions through altered metabolism, additive bleeding risk, and changes in vitamin K or gut flora; the direction and magnitude vary by interacting product.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Consult the current interacting-product information and monitor INR more frequently when interacting medicines, antibiotics, antifungals, botanicals, or major dietary vitamin K changes are started or stopped.",
+      "source_refs": [{"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Drug Interactions, section 7", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "warfarin.dose.individualized",
+      "drug_id": "rxnorm:11289",
+      "category": "DOSE_CONSIDERATION",
+      "statement": "Warfarin dose must be individualized according to INR response, indication, clinical factors, and—when available—genotype; the label's CYP2C9/VKORC1 expected maintenance-dose ranges are not universal fixed starting doses.",
+      "evidence_status": "ACTIONABLE",
+      "recommendation": "Use a validated dosing algorithm rather than isolated genotype lookup, and adjust subsequently to the target INR.",
+      "source_refs": [
+        {"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Dosage and Administration, sections 2.1-2.4 and Table 1", "native_evidence_level": "FDA regulatory label"},
+        {"source_id": "CPIC_WARFARIN_2017", "locator": "Dosing recommendations and algorithms", "native_evidence_level": "CPIC Strong/Moderate depending on ancestry and genotype coverage"}
+      ]
+    },
+    {
+      "claim_id": "warfarin.monitoring.inr",
+      "drug_id": "rxnorm:11289",
+      "category": "MONITORING",
+      "statement": "Determine INR daily after the initial dose until stable; after stabilization, generally monitor at intervals of one to four weeks, with additional INR testing when interacting medicines or meaningful dietary factors change.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_WARFARIN_2026_06", "locator": "Dosage and Administration 2.4 and Drug Interactions 7", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "warfarin.alternative.high-sensitivity",
+      "drug_id": "rxnorm:11289",
+      "category": "ALTERNATIVE",
+      "gene": "CYP2C9; VKORC1",
+      "phenotype_or_genotype": "Poor metabolism and/or high warfarin sensitivity",
+      "statement": "CPIC permits consideration of an alternative oral anticoagulant in selected patients expected to require very low warfarin doses or prolonged time to stable dosing.",
+      "evidence_status": "LIMITED",
+      "limitations": "CPIC does not identify one universally suitable alternative; indication, renal function, valve status, contraindications, access, and other patient factors must determine suitability.",
+      "source_refs": [{"source_id": "CPIC_WARFARIN_2017", "locator": "Dosing recommendations for poor metabolizers/high sensitivity", "native_evidence_level": "CPIC recommendation within genotype-guided algorithm"}]
+    },
+    {
+      "claim_id": "warfarin.gap.incomplete-genotyping",
+      "drug_id": "rxnorm:11289",
+      "category": "EVIDENCE_GAP",
+      "statement": "Genotype-guided dosing is insufficiently reliable when relevant ancestry-sensitive alleles were not assayed; ancestry or race must never be used as a substitute for an actual genotype result.",
+      "evidence_status": "INSUFFICIENT",
+      "source_refs": [{"source_id": "CPIC_WARFARIN_2017", "locator": "African-ancestry recommendations and limitations", "native_evidence_level": "CPIC Moderate/no recommendation depending on allele coverage"}]
+    },
+
+    {
+      "claim_id": "simvastatin.indications",
+      "drug_id": "rxnorm:36567",
+      "category": "INDICATION",
+      "statement": "The label indicates simvastatin to reduce cardiovascular risk in selected adults and to reduce LDL cholesterol in adults and pediatric patients with specified hyperlipidemias.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Indications and Usage, section 1", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "simvastatin.pgx.slco1b1",
+      "drug_id": "rxnorm:36567",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "SLCO1B1",
+      "phenotype_or_genotype": "Decreased, possible decreased, or poor transporter function; including rs4149056 TC/CC",
+      "statement": "Reduced SLCO1B1 function increases simvastatin systemic exposure and risk of statin-associated musculoskeletal symptoms/myopathy, with risk especially relevant at higher doses.",
+      "evidence_status": "ACTIONABLE",
+      "recommendation": "Prefer an alternative statin; if simvastatin is necessary, CPIC recommends less than 20 mg/day for decreased or possible decreased function and an alternative statin for poor function.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 2, simvastatin-SLCO1B1 row", "native_evidence_level": "FDA Table Section 2"},
+        {"source_id": "CPIC_STATINS_2022", "locator": "Table 2, simvastatin recommendations", "native_evidence_level": "CPIC Strong"},
+        {"source_id": "CLINPGX_SIMVASTATIN_SLCO1B1_1A", "locator": "Clinical annotation 655384011", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "simvastatin.contraindications",
+      "drug_id": "rxnorm:36567",
+      "category": "CONTRAINDICATION",
+      "statement": "Simvastatin is contraindicated with strong CYP3A4 inhibitors, cyclosporine, danazol, or gemfibrozil and in acute liver failure, decompensated cirrhosis, or hypersensitivity.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Contraindications, section 4", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "simvastatin.interactions.myopathy",
+      "drug_id": "rxnorm:36567",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "strong CYP3A4 inhibitors, cyclosporine, danazol, gemfibrozil, amiodarone, amlodipine, diltiazem, verapamil, lomitapide, or niacin",
+      "statement": "Multiple interacting medicines increase simvastatin exposure or myopathy/rhabdomyolysis risk; some combinations are contraindicated and others impose dose limits.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Apply the current label's product-specific contraindication or maximum-dose rule; do not reduce this interaction set to one generic percentage adjustment.",
+      "source_refs": [{"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Dosage and Administration 2.5, Warnings 5.1, Drug Interactions 7", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "simvastatin.dose.label",
+      "drug_id": "rxnorm:36567",
+      "category": "DOSE_CONSIDERATION",
+      "statement": "The usual adult dosage range is 20-40 mg once daily in the evening; 80 mg is restricted to patients who have taken it chronically without muscle toxicity, and patients requiring high-intensity LDL lowering should receive alternative LDL-lowering treatment.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Dosage and Administration, sections 2.2-2.3", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "simvastatin.monitoring",
+      "drug_id": "rxnorm:36567",
+      "category": "MONITORING",
+      "statement": "Assess LDL cholesterol as early as four weeks after initiation or dose adjustment; advise patients to report unexplained muscle symptoms, measure creatine kinase when myopathy is suspected, and perform liver-enzyme testing before initiation and when clinically indicated.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Dosage 2.2 and Warnings 5.1-5.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "simvastatin.alternative.slco1b1",
+      "drug_id": "rxnorm:36567",
+      "category": "ALTERNATIVE",
+      "gene": "SLCO1B1",
+      "phenotype_or_genotype": "Decreased, possible decreased, or poor transporter function",
+      "statement": "CPIC supports selecting an alternative statin whose disposition is less dependent on SLCO1B1 when simvastatin myopathy risk is increased.",
+      "evidence_status": "ACTIONABLE",
+      "limitations": "CPIC does not define one mandatory substitute; required LDL-lowering intensity, prior tolerance, comorbidities, and interactions determine selection.",
+      "source_refs": [{"source_id": "CPIC_STATINS_2022", "locator": "Table 2, simvastatin recommendations", "native_evidence_level": "CPIC Strong"}]
+    },
+    {
+      "claim_id": "simvastatin.gap.fda-label-genotype-dose",
+      "drug_id": "rxnorm:36567",
+      "category": "EVIDENCE_GAP",
+      "statement": "The selected current simvastatin label does not provide an SLCO1B1 genotype-specific dose table; FDA's association is in Section 2 rather than Section 1, while CPIC supplies the actionable prescribing recommendation.",
+      "evidence_status": "LIMITED",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 2, simvastatin-SLCO1B1 row", "native_evidence_level": "FDA Table Section 2"},
+        {"source_id": "FDA_LABEL_SIMVASTATIN_2026_01", "locator": "Full prescribing information", "native_evidence_level": "No SLCO1B1 genotype-specific dose in selected label"}
+      ]
+    },
+
+    {
+      "claim_id": "atorvastatin.indications",
+      "drug_id": "rxnorm:83367",
+      "category": "INDICATION",
+      "statement": "The label indicates atorvastatin to reduce cardiovascular risk in selected adults and to reduce LDL cholesterol in adults and pediatric patients with specified hyperlipidemias.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_ATORVASTATIN_2025_03", "locator": "Indications and Usage, section 1", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "atorvastatin.pgx.slco1b1",
+      "drug_id": "rxnorm:83367",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "SLCO1B1",
+      "phenotype_or_genotype": "Decreased, possible decreased, or poor transporter function; including rs4149056 CC",
+      "statement": "Reduced SLCO1B1 function can increase atorvastatin exposure and is associated with increased statin-associated musculoskeletal-symptom risk.",
+      "evidence_status": "SUPPORTED",
+      "recommendation": "CPIC recommends an atorvastatin starting dose at or below 40 mg/day for decreased or possible decreased function and at or below 20 mg/day for poor function; if a higher dose is needed for efficacy, consider combination therapy.",
+      "limitations": "FDA lists the atorvastatin-SLCO1B1 association in Section 3: altered pharmacokinetics are recognized, but FDA states that impact on safety or response is not established. The CPIC recommendation is Moderate, not Strong.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 3, atorvastatin-SLCO1B1 row", "native_evidence_level": "FDA Table Section 3; PK effect only, safety/response impact not established"},
+        {"source_id": "CPIC_STATINS_2022", "locator": "Table 2, atorvastatin recommendations", "native_evidence_level": "CPIC Moderate"},
+        {"source_id": "CLINPGX_ATORVASTATIN_SLCO1B1_1A", "locator": "Clinical annotation 1043880818", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "atorvastatin.contraindications",
+      "drug_id": "rxnorm:83367",
+      "category": "CONTRAINDICATION",
+      "statement": "Atorvastatin is contraindicated in acute liver failure or decompensated cirrhosis and in hypersensitivity to atorvastatin or a product component.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_ATORVASTATIN_2025_03", "locator": "Contraindications, section 4", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "atorvastatin.interactions.myopathy",
+      "drug_id": "rxnorm:83367",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "clarithromycin, itraconazole, selected antivirals, cyclosporine, gemfibrozil, colchicine, niacin, or other atorvastatin exposure-increasing drugs",
+      "statement": "Strong CYP3A4 and transporter inhibitors and selected myotoxic medicines can raise atorvastatin exposure and myopathy/rhabdomyolysis risk; the label provides drug-specific avoidance or maximum-dose instructions.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Apply the current label's interacting-drug-specific avoidance or dose limit and monitor for muscle toxicity when concomitant use is required.",
+      "source_refs": [{"source_id": "FDA_LABEL_ATORVASTATIN_2025_03", "locator": "Dosage 2.4, Warnings 5.1, Drug Interactions 7", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "atorvastatin.dose.label",
+      "drug_id": "rxnorm:83367",
+      "category": "DOSE_CONSIDERATION",
+      "statement": "The adult starting dose is 10 or 20 mg once daily and the labeled range is 10-80 mg once daily; patients requiring greater than 45% LDL reduction may start at 40 mg once daily.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_ATORVASTATIN_2025_03", "locator": "Dosage and Administration, section 2.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "atorvastatin.monitoring",
+      "drug_id": "rxnorm:83367",
+      "category": "MONITORING",
+      "statement": "Assess LDL cholesterol as early as four weeks after initiation or dose adjustment; advise patients to report unexplained muscle symptoms, evaluate creatine kinase when myopathy is suspected, and test liver enzymes before initiation and when clinically indicated.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_ATORVASTATIN_2025_03", "locator": "Dosage 2.2 and Warnings 5.1-5.2", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "atorvastatin.alternative.slco1b1",
+      "drug_id": "rxnorm:83367",
+      "category": "ALTERNATIVE",
+      "gene": "SLCO1B1",
+      "phenotype_or_genotype": "Reduced transporter function when the required atorvastatin intensity exceeds CPIC's recommended starting dose",
+      "statement": "CPIC permits combination therapy with a non-statin lipid-lowering medicine as an alternative to escalating atorvastatin beyond the phenotype-specific starting-dose recommendation.",
+      "evidence_status": "SUPPORTED",
+      "limitations": "The guideline does not mandate a specific non-statin agent; patient-specific indication, interactions, contraindications, and required LDL reduction remain necessary.",
+      "source_refs": [{"source_id": "CPIC_STATINS_2022", "locator": "Table 2, atorvastatin recommendations", "native_evidence_level": "CPIC Moderate"}]
+    },
+    {
+      "claim_id": "atorvastatin.gap.fda-clinical-impact",
+      "drug_id": "rxnorm:83367",
+      "category": "EVIDENCE_GAP",
+      "gene": "SLCO1B1",
+      "statement": "FDA recognizes higher atorvastatin concentrations with SLCO1B1 521CC but states that the resulting impact on safety or clinical response is not established.",
+      "evidence_status": "INSUFFICIENT",
+      "source_refs": [{"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 3, atorvastatin-SLCO1B1 row", "native_evidence_level": "FDA Table Section 3"}]
+    },
+
+    {
+      "claim_id": "metoprolol.indications",
+      "drug_id": "rxnorm:6918",
+      "category": "INDICATION",
+      "statement": "Metoprolol succinate extended release is indicated for hypertension, long-term treatment of angina pectoris, and stable symptomatic heart failure of ischemic, hypertensive, or cardiomyopathic origin.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Indications and Usage, section 1", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "metoprolol.pgx.cyp2d6-pm",
+      "drug_id": "rxnorm:6918",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "CYP2D6",
+      "phenotype_or_genotype": "Poor metabolizer",
+      "statement": "CYP2D6 poor metabolizers have markedly increased metoprolol concentrations and greater heart-rate and blood-pressure reduction; evidence for differences in major clinical outcomes remains unclear.",
+      "evidence_status": "SUPPORTED",
+      "recommendation": "Start with the lowest recommended dose, carefully titrate to clinical response, and monitor more closely for bradycardia; consider another beta blocker if appropriate.",
+      "limitations": "FDA places the association in Section 3 because clinical safety/response impact is not established; CPIC rates the prescribing recommendation Moderate.",
+      "source_refs": [
+        {"source_id": "FDA_PGX_TABLE_2022_10_26", "locator": "Section 3, metoprolol-CYP2D6 row", "native_evidence_level": "FDA Table Section 3; PK effect only, safety/response impact not established"},
+        {"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Clinical Pharmacology, Pharmacogenomics", "native_evidence_level": "FDA regulatory label"},
+        {"source_id": "CPIC_BETA_BLOCKERS_2024", "locator": "Table 2, metoprolol CYP2D6 poor metabolizer", "native_evidence_level": "CPIC Moderate"},
+        {"source_id": "CLINPGX_METOPROLOL_CYP2D6_1A", "locator": "Clinical annotation 1450415170", "native_evidence_level": "PharmGKB/ClinPGx Level 1A"}
+      ]
+    },
+    {
+      "claim_id": "metoprolol.pgx.cyp2d6-im",
+      "drug_id": "rxnorm:6918",
+      "category": "PHARMACOGENOMIC_EFFECT",
+      "gene": "CYP2D6",
+      "phenotype_or_genotype": "Intermediate metabolizer",
+      "statement": "CYP2D6 intermediate metabolizers have increased metoprolol exposure, but available evidence does not show clinically meaningful outcome differences that justify a routine dose change.",
+      "evidence_status": "SUPPORTED",
+      "recommendation": "Initiate therapy with the standard recommended dose.",
+      "source_refs": [{"source_id": "CPIC_BETA_BLOCKERS_2024", "locator": "Table 2, metoprolol CYP2D6 intermediate metabolizer", "native_evidence_level": "CPIC Moderate"}]
+    },
+    {
+      "claim_id": "metoprolol.pgx.cyp2d6-um-gap",
+      "drug_id": "rxnorm:6918",
+      "category": "EVIDENCE_GAP",
+      "gene": "CYP2D6",
+      "phenotype_or_genotype": "Ultrarapid metabolizer",
+      "statement": "CYP2D6 ultrarapid metabolism can lower metoprolol concentrations, but evidence is insufficient to determine a clinically meaningful efficacy effect or prescribe a genotype-specific adjustment.",
+      "evidence_status": "INSUFFICIENT",
+      "recommendation": "No genotype-specific recommendation.",
+      "source_refs": [{"source_id": "CPIC_BETA_BLOCKERS_2024", "locator": "Table 2, metoprolol CYP2D6 ultrarapid metabolizer", "native_evidence_level": "CPIC No recommendation"}]
+    },
+    {
+      "claim_id": "metoprolol.contraindications",
+      "drug_id": "rxnorm:6918",
+      "category": "CONTRAINDICATION",
+      "statement": "Metoprolol succinate extended release is contraindicated in severe bradycardia, second- or third-degree heart block or sick-sinus syndrome without a pacemaker, cardiogenic shock or decompensated heart failure, and hypersensitivity.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Contraindications, section 4", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "metoprolol.interactions",
+      "drug_id": "rxnorm:6918",
+      "category": "DRUG_INTERACTION",
+      "interacting_substance": "strong CYP2D6 inhibitors; digoxin; clonidine; diltiazem; verapamil",
+      "statement": "Strong CYP2D6 inhibitors increase metoprolol concentration, while digoxin, clonidine, diltiazem, and verapamil can add to heart-rate slowing; clonidine withdrawal requires special sequencing when combined with a beta blocker.",
+      "evidence_status": "REGULATORY_LABEL",
+      "recommendation": "Monitor heart rate and clinical response, and follow the label's clonidine discontinuation precautions.",
+      "source_refs": [{"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Drug Interactions, section 7", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "metoprolol.dose.label",
+      "drug_id": "rxnorm:6918",
+      "category": "DOSE_CONSIDERATION",
+      "statement": "Labeled initial doses for metoprolol succinate extended release vary by indication: 25-100 mg once daily for hypertension, 100 mg once daily for angina, and 12.5 or 25 mg once daily for heart failure, followed by indication-specific titration.",
+      "evidence_status": "REGULATORY_LABEL",
+      "limitations": "These are formulation- and indication-specific label doses and must not be transferred automatically to metoprolol tartrate.",
+      "source_refs": [{"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Dosage and Administration, sections 2.1-2.3", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "metoprolol.monitoring",
+      "drug_id": "rxnorm:6918",
+      "category": "MONITORING",
+      "statement": "Monitor heart rate, blood pressure, clinical response, bradycardia, and signs or symptoms of worsening heart failure during initiation and titration; use a low initial dose with gradual adjustment in hepatic impairment.",
+      "evidence_status": "REGULATORY_LABEL",
+      "source_refs": [{"source_id": "FDA_LABEL_METOPROLOL_2026_05", "locator": "Dosage 2, Warnings 5, and Use in Specific Populations 8.6", "native_evidence_level": "FDA regulatory label"}]
+    },
+    {
+      "claim_id": "metoprolol.alternative.cyp2d6-pm",
+      "drug_id": "rxnorm:6918",
+      "category": "ALTERNATIVE",
+      "gene": "CYP2D6",
+      "phenotype_or_genotype": "Poor metabolizer",
+      "statement": "CPIC allows consideration of an alternative beta blocker in CYP2D6 poor metabolizers when elevated metoprolol exposure or bradycardia risk is clinically important.",
+      "evidence_status": "SUPPORTED",
+      "limitations": "No single alternative beta blocker is universally recommended; indication, comorbidities, contraindications, hemodynamics, and evidence for the intended outcome govern selection.",
+      "source_refs": [{"source_id": "CPIC_BETA_BLOCKERS_2024", "locator": "Table 2, metoprolol CYP2D6 poor metabolizer", "native_evidence_level": "CPIC Moderate"}]
+    },
+    {
+      "claim_id": "metoprolol.gap.other-genes",
+      "drug_id": "rxnorm:6918",
+      "category": "EVIDENCE_GAP",
+      "gene": "ADRB1; ADRB2; ADRA2C; GRK4; GRK5",
+      "statement": "Current CPIC evidence is insufficient to support therapeutic recommendations for these additional beta-blocker pharmacogenes.",
+      "evidence_status": "INSUFFICIENT",
+      "recommendation": "Do not use these genes to generate metoprolol prescribing advice in this dataset.",
+      "source_refs": [{"source_id": "CPIC_BETA_BLOCKERS_2024", "locator": "Guideline recommendations for non-CYP2D6 genes", "native_evidence_level": "CPIC No recommendation/insufficient evidence"}]
+    }
+  ]
+}

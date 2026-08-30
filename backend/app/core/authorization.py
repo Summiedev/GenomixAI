@@ -27,14 +27,7 @@ async def get_authenticated_user_id(
     credentials: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),  # noqa: B008
     db: AsyncSession = Depends(get_db),  # noqa: B008
 ) -> UUID:
-    """Resolve the principal from a signed bearer token or trusted server state."""
-
-    user_id = getattr(request.state, "user_id", None)
-    if user_id is not None:
-        try:
-            return UUID(str(user_id))
-        except ValueError as exc:
-            raise _authentication_required("Invalid principal") from exc
+    """Resolve the principal exclusively from the signed bearer token."""
 
     if credentials is None or credentials.scheme.lower() != "bearer":
         raise _authentication_required()

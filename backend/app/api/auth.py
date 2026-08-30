@@ -8,6 +8,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload
 
+from app.core.audit import append_audit_event
 from app.core.authorization import require_authenticated_user
 from app.core.config import Settings, get_request_settings
 from app.core.security import (
@@ -18,6 +19,7 @@ from app.core.security import (
 )
 from app.db.session import get_db
 from app.models import (
+    AuditAction,
     Department,
     MembershipStatus,
     Organization,
@@ -88,6 +90,7 @@ class MeResponse(BaseModel):
 @router.post("/login", response_model=TokenResponse)
 async def login(
     credentials: LoginRequest,
+    request: Request,
     db: AsyncSession = Depends(get_db),  # noqa: B008 - FastAPI dependency declaration.
     settings: Settings = Depends(get_request_settings),  # noqa: B008
 ) -> TokenResponse:
@@ -99,6 +102,16 @@ async def login(
         raise _invalid_login()
 
     token, expires_at, _ = create_access_token(user.id, settings)
+    append_audit_event(
+        db,
+        action=AuditAction.LOGIN,
+        actor_id=user.id,
+        organization_id=None,
+        resource_type="User",
+        resource_id=user.id,
+        request=request,
+    )
+    await db.commit()
     return TokenResponse(access_token=token, expires_at=expires_at)
 
 
@@ -142,7 +155,6 @@ async def logout(
     db: AsyncSession = Depends(get_db),  # noqa: B008
     settings: Settings = Depends(get_request_settings),  # noqa: B008
 ) -> Response:
-    del request
     if credentials is None or credentials.scheme.lower() != "bearer":
         raise _authentication_required()
     try:
@@ -151,6 +163,7 @@ async def logout(
         raise _authentication_required() from exc
 
     jti = str(claims["jti"])
+    actor_id = UUID(str(claims["sub"]))
     already_revoked = await db.get(RevokedToken, jti)
     if already_revoked is None:
         db.add(
@@ -159,7 +172,16 @@ async def logout(
                 expires_at=datetime.fromtimestamp(float(claims["exp"]), tz=UTC),
             )
         )
-        await db.commit()
+    append_audit_event(
+        db,
+        action=AuditAction.LOGOUT,
+        actor_id=actor_id,
+        organization_id=None,
+        resource_type="User",
+        resource_id=actor_id,
+        request=request,
+    )
+    await db.commit()
     response.status_code = status.HTTP_204_NO_CONTENT
     return response
 

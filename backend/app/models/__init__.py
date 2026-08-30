@@ -1,5 +1,16 @@
 """SQLAlchemy models imported centrally for Alembic metadata discovery."""
 
+from app.models.assessment import (
+    AssessmentEvidence,
+    AssessmentFinding,
+    AssessmentMedication,
+    AssessmentRecommendation,
+    MedicationAssessment,
+    PharmacistReview,
+    PharmacistReviewStatus,
+    ReviewPriority,
+)
+from app.models.audit import AuditAction, AuditEvent
 from app.models.clinical import (
     AdverseDrugReaction,
     Allergy,
@@ -11,6 +22,11 @@ from app.models.clinical import (
     RecordStatus,
     Vital,
     VitalType,
+)
+from app.models.decision import (
+    PhysicianDecision,
+    PhysicianDecisionMedication,
+    PhysicianDecisionType,
 )
 from app.models.genomics import (
     EvidenceReference,
@@ -29,6 +45,22 @@ from app.models.identity import (
     User,
     UserStatus,
 )
+from app.models.knowledge import (
+    AlternativeClassification,
+    ComparisonOperator,
+    ContraindicationRule,
+    DoseRule,
+    DrugDrugInteraction,
+    EvidenceLevel,
+    EvidenceSource,
+    EvidenceSourceType,
+    KnowledgeStatus,
+    MonitoringRule,
+    PharmacogenomicRule,
+    PharmacogenomicRuleAlternative,
+    RecommendationClassification,
+    RuleConditionType,
+)
 from app.models.medication import (
     DurationUnit,
     Medication,
@@ -38,6 +70,7 @@ from app.models.medication import (
     MedicationStatus,
 )
 from app.models.migration_probe import MigrationProbe
+from app.models.notification import Notification, NotificationType
 from app.models.organization import Department, Organization, OrganizationStatus
 from app.models.patient import (
     Patient,
@@ -46,19 +79,35 @@ from app.models.patient import (
     PatientSex,
     PatientStatus,
 )
+from app.models.report import AssessmentReport
 from app.models.timeline import ClinicalEvent, ClinicalEventType
 
 __all__ = [
     "Department",
     "AdverseDrugReaction",
+    "AssessmentEvidence",
+    "AssessmentFinding",
+    "AssessmentMedication",
+    "AssessmentRecommendation",
+    "AssessmentReport",
+    "AlternativeClassification",
     "Allergy",
+    "AuditAction",
+    "AuditEvent",
     "ClinicalEvent",
     "ClinicalEventType",
     "ClinicalNote",
     "Condition",
+    "ComparisonOperator",
+    "ContraindicationRule",
+    "DoseRule",
+    "DrugDrugInteraction",
     "Encounter",
     "EncounterType",
     "EvidenceReference",
+    "EvidenceLevel",
+    "EvidenceSource",
+    "EvidenceSourceType",
     "GenomicDataSource",
     "GenomicProfile",
     "GenomicRecordStatus",
@@ -69,10 +118,15 @@ __all__ = [
     "MembershipStatus",
     "MigrationProbe",
     "Medication",
+    "MedicationAssessment",
     "MedicationOrder",
     "MedicationOrderStatus",
     "MedicationOrderStatusHistory",
     "MedicationStatus",
+    "MonitoringRule",
+    "Notification",
+    "NotificationType",
+    "KnowledgeStatus",
     "Organization",
     "OrganizationMembership",
     "OrganizationStatus",
@@ -81,10 +135,20 @@ __all__ = [
     "PatientOrganizationLink",
     "PatientSex",
     "PatientStatus",
+    "PhysicianDecision",
+    "PhysicianDecisionMedication",
+    "PhysicianDecisionType",
     "PharmacogenomicInterpretation",
+    "PharmacogenomicRule",
+    "PharmacogenomicRuleAlternative",
+    "PharmacistReview",
+    "PharmacistReviewStatus",
+    "RecommendationClassification",
     "RecordStatus",
     "RevokedToken",
     "Role",
+    "ReviewPriority",
+    "RuleConditionType",
     "User",
     "UserStatus",
     "Vital",

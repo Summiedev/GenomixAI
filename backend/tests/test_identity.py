@@ -149,3 +149,8 @@ async def test_user_can_have_multiple_organization_memberships(db_session) -> No
         )
     ).all()
     assert len(memberships) == 2
+    # Keep the shared migration fixture deterministic for later tenant-isolation tests.
+    await db_session.delete(
+        next(item for item in memberships if item.organization_id == hospital_b.id)
+    )
+    await db_session.commit()

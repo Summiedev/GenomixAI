@@ -1,7 +1,7 @@
 from functools import lru_cache
 
 from fastapi import Request
-from pydantic import Field
+from pydantic import Field, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -24,6 +24,15 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = Field(default=30, ge=1)
     cors_origins: list[str] = Field(default_factory=list)
     log_level: str = "INFO"
+
+    @model_validator(mode="after")
+    def validate_security_configuration(self) -> "Settings":
+        environment = self.app_env.strip().lower()
+        if environment in {"production", "prod"} and len(self.jwt_secret) < 32:
+            raise ValueError("JWT_SECRET must contain at least 32 characters in production")
+        if "*" in self.cors_origins:
+            raise ValueError("Wildcard CORS origins are not permitted")
+        return self
 
 
 @lru_cache

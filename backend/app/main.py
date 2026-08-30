@@ -2,11 +2,18 @@ from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.api.assessments import router as assessment_router
+from app.api.audit import router as audit_router
 from app.api.auth import router as auth_router
 from app.api.clinical import router as clinical_router
+from app.api.decisions import router as decision_router
 from app.api.genomics import router as genomics_router
+from app.api.knowledge import router as knowledge_router
 from app.api.medications import router as medication_router
+from app.api.notifications import router as notification_router
 from app.api.patients import router as patient_router
+from app.api.reports import router as report_router
+from app.api.reviews import router as review_router
 from app.api.timeline import router as timeline_router
 from app.core.config import Settings, get_settings
 from app.core.exceptions import exception_handlers
@@ -21,10 +28,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     application = FastAPI(title=runtime_settings.project_name)
     application.state.settings = runtime_settings
     application.include_router(auth_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(assessment_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(audit_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(decision_router, prefix=runtime_settings.api_v1_prefix)
     application.include_router(patient_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(report_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(review_router, prefix=runtime_settings.api_v1_prefix)
     application.include_router(clinical_router, prefix=runtime_settings.api_v1_prefix)
     application.include_router(genomics_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(knowledge_router, prefix=runtime_settings.api_v1_prefix)
     application.include_router(medication_router, prefix=runtime_settings.api_v1_prefix)
+    application.include_router(notification_router, prefix=runtime_settings.api_v1_prefix)
     application.include_router(timeline_router, prefix=runtime_settings.api_v1_prefix)
     for exception_type, handler in exception_handlers().items():
         application.add_exception_handler(exception_type, handler)
@@ -33,9 +47,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         application.add_middleware(
             CORSMiddleware,
             allow_origins=runtime_settings.cors_origins,
-            allow_credentials=True,
-            allow_methods=["*"],
-            allow_headers=["*"],
+            allow_credentials=False,
+            allow_methods=["GET", "POST", "PATCH", "OPTIONS"],
+            allow_headers=["Authorization", "Content-Type", "X-Request-ID", "X-Correlation-ID"],
         )
 
     @application.get("/health", tags=["health"])
